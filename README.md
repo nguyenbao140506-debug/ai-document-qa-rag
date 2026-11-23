@@ -1,5 +1,7 @@
 # Evidence Desk - AI Document Question Answering with RAG
 
+[![quality](https://github.com/nguyenbao140506-debug/ai-document-qa-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/nguyenbao140506-debug/ai-document-qa-rag/actions/workflows/ci.yml)
+
 A local PDF question-answering application that makes every answer inspectable. Upload research notes, manuals, or policies, ask a question, and trace the supporting sentence to the original filename and page.
 
 The project combines **Sentence Transformers**, **FAISS**, **PyMuPDF**, **Streamlit**, and a small **Qwen** language model. It includes a reproducible synthetic corpus, retrieval experiments, separate answer-quality diagnostics, automated tests, and actual execution records.
@@ -121,7 +123,7 @@ python -m pytest -m integration
 python -m ruff check .
 python -m ruff format --check .
 python -m bandit -r src app.py scripts -ll
-python -m pip_audit -r requirements.txt --no-deps --disable-pip
+python -m pip_audit -r requirements-lock.windows-py313.txt --no-deps --disable-pip
 python scripts/evaluate.py --generation --output evaluation/results/reproduced.json
 python scripts/evaluate_adversarial.py
 ```
@@ -143,6 +145,7 @@ The corpus contact sheet shows all 18 generated pages: [`assets/corpus-contact-s
 - [`docs/PORTFOLIO_EVIDENCE.md`](docs/PORTFOLIO_EVIDENCE.md): verified features, test records, evaluation, reproduction, and limitations.
 - [`docs/CV_BULLETS.md`](docs/CV_BULLETS.md): three concise, evidence-backed English CV bullets.
 - [`docs/SECURITY.md`](docs/SECURITY.md): threat model, safeguards, and remaining risks.
+- [`docs/PUBLICATION.md`](docs/PUBLICATION.md): verified public commit, successful GitHub Actions run, and actual remote logs.
 
 ## Limitations and future improvements
 

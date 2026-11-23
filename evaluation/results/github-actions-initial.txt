@@ -1,0 +1,540 @@
+offline-tests	Set up job	﻿2026-11-23T17:32:34.3332606Z Current runner version: '2.338.2'
+offline-tests	Set up job	2026-11-23T17:32:34.3362373Z ##[group]Runner Image Provisioner
+offline-tests	Set up job	2026-11-23T17:32:34.3363370Z Hosted Compute Agent
+offline-tests	Set up job	2026-11-23T17:32:34.3363994Z Version: 20261111.635
+offline-tests	Set up job	2026-11-23T17:32:34.3364635Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+offline-tests	Set up job	2026-11-23T17:32:34.3365697Z Build Date: 2026-11-11T01:49:01Z
+offline-tests	Set up job	2026-11-23T17:32:34.3366429Z Worker ID: {be7584bb-9074-4f9f-a5f9-3a4a014d1e0d}
+offline-tests	Set up job	2026-11-23T17:32:34.3367205Z Region: northcentralus
+offline-tests	Set up job	2026-11-23T17:32:34.3367827Z Cloud: Azure
+offline-tests	Set up job	2026-11-23T17:32:34.3368385Z ##[endgroup]
+offline-tests	Set up job	2026-11-23T17:32:34.3370088Z ##[group]Operating System
+offline-tests	Set up job	2026-11-23T17:32:34.3370778Z Ubuntu
+offline-tests	Set up job	2026-11-23T17:32:34.3371377Z 26.04.1
+offline-tests	Set up job	2026-11-23T17:32:34.3371934Z LTS
+offline-tests	Set up job	2026-11-23T17:32:34.3372461Z ##[endgroup]
+offline-tests	Set up job	2026-11-23T17:32:34.3373114Z ##[group]Runner Image
+offline-tests	Set up job	2026-11-23T17:32:34.3373718Z Image: ubuntu-26.04
+offline-tests	Set up job	2026-11-23T17:32:34.3374665Z Version: 20261116.202.1
+offline-tests	Set up job	2026-11-23T17:32:34.3376278Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.202/images/ubuntu/Ubuntu2604-Readme.md
+offline-tests	Set up job	2026-11-23T17:32:34.3378232Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.202
+offline-tests	Set up job	2026-11-23T17:32:34.3379243Z ##[endgroup]
+offline-tests	Set up job	2026-11-23T17:32:34.3380523Z ##[group]GITHUB_TOKEN Permissions
+offline-tests	Set up job	2026-11-23T17:32:34.3382725Z Contents: read
+offline-tests	Set up job	2026-11-23T17:32:34.3383363Z Metadata: read
+offline-tests	Set up job	2026-11-23T17:32:34.3384135Z ##[endgroup]
+offline-tests	Set up job	2026-11-23T17:32:34.3386682Z Secret source: Actions
+offline-tests	Set up job	2026-11-23T17:32:34.3387846Z Cache mode: write
+offline-tests	Set up job	2026-11-23T17:32:34.3388919Z Prepare workflow directory
+offline-tests	Set up job	2026-11-23T17:32:34.3888715Z Prepare all required actions
+offline-tests	Set up job	2026-11-23T17:32:34.3963386Z Getting action download info
+offline-tests	Set up job	2026-11-23T17:32:34.6559775Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+offline-tests	Set up job	2026-11-23T17:32:34.7745871Z Download action repository 'actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0' (SHA:6d4fd22b20465ccc0f7354476588e8df7c9ca0e0)
+offline-tests	Set up job	2026-11-23T17:32:34.8332530Z Download action repository 'actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+offline-tests	Set up job	2026-11-23T17:32:34.9904106Z Complete job name: offline-tests
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-23T17:32:35.0907655Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0909128Z with:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0909644Z   persist-credentials: false
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0910279Z   repository: nguyenbao140506-debug/ai-document-qa-rag
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0914194Z   token: ***
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0914646Z   ssh-strict: true
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0915108Z   ssh-user: git
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0915757Z   clean: true
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0916227Z   sparse-checkout-cone-mode: true
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0916784Z   fetch-depth: 1
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0917253Z   fetch-tags: false
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0917721Z   show-progress: true
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0918191Z   lfs: false
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0918619Z   submodules: false
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0919091Z   set-safe-directory: true
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0919648Z   allow-unsafe-pr-checkout: false
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0920494Z env:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0920930Z   USE_TF: 0
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0921367Z   OMP_NUM_THREADS: 4
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0921845Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.0922374Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3369830Z Syncing repository: nguyenbao140506-debug/ai-document-qa-rag
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3372518Z ##[group]Getting Git version info
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3374157Z Working directory is '/home/runner/work/ai-document-qa-rag/ai-document-qa-rag'
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3376126Z [command]/usr/bin/git version
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3384741Z git version 2.56.1
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3406995Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3418859Z Temporarily overriding HOME='/home/runner/work/_temp/9325d47f-c259-4762-bba4-e40d359e1d2f' before making global git config changes
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3421983Z Adding repository directory to the temporary git global config as a safe directory
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3425823Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ai-document-qa-rag/ai-document-qa-rag
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3496401Z Deleting the contents of '/home/runner/work/ai-document-qa-rag/ai-document-qa-rag'
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3499382Z ##[group]Determining repository object format
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3501909Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3503239Z ##[group]Initializing the repository
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3512639Z [command]/usr/bin/git init /home/runner/work/ai-document-qa-rag/ai-document-qa-rag
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3641612Z hint: Using 'master' as the name for the initial branch. This default branch name
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3643763Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3645896Z hint: to use in all of your new repositories, which will suppress this warning,
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3647516Z hint: call:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3648364Z hint:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3649391Z hint: 	git config --global init.defaultBranch <name>
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3650618Z hint:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3651872Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3653681Z hint: 'development'. The just-created branch can be renamed via this command:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3655158Z hint:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3656294Z hint: 	git branch -m <name>
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3657316Z hint:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3658595Z hint: Disable this message with "git config set advice.defaultBranchName false"
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3671438Z Initialized empty Git repository in /home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git/
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3688400Z [command]/usr/bin/git remote add origin https://github.com/nguyenbao140506-debug/ai-document-qa-rag
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3762056Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3763698Z ##[group]Disabling automatic garbage collection
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3766566Z [command]/usr/bin/git config --local gc.auto 0
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3846407Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3848599Z ##[group]Setting up auth
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3850030Z Removing SSH command configuration
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3868485Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.3921615Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.4411172Z Removing HTTP extra header
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.4417459Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.4452037Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.4736215Z Removing includeIf entries pointing to credentials config files
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.4742201Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.4785961Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5076945Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5119208Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git.path /home/runner/work/_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5157976Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5196512Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5231708Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5263679Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5264697Z ##[group]Fetching the repository
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.5271215Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +326dadff2424a31c13e00ab1a9d9ba3648fbd2fe:refs/remotes/origin/main
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8741412Z From https://github.com/nguyenbao140506-debug/ai-document-qa-rag
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8744252Z  * [new ref]         326dadff2424a31c13e00ab1a9d9ba3648fbd2fe -> origin/main
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8752321Z [command]/usr/bin/git branch --list --remote origin/main
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8780996Z   origin/main
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8790124Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8816881Z 326dadff2424a31c13e00ab1a9d9ba3648fbd2fe
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8822273Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8824120Z ##[group]Determining the checkout info
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8826201Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8827690Z [command]/usr/bin/git sparse-checkout disable
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8882252Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8917281Z ##[group]Checking out the ref
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.8922929Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9091389Z Switched to a new branch 'main'
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9096746Z branch 'main' set up to track 'origin/main'.
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9104862Z ##[endgroup]
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9154748Z [command]/usr/bin/git log -1 --format=%H
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9183604Z 326dadff2424a31c13e00ab1a9d9ba3648fbd2fe
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9194152Z ##[group]Removing auth
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9196049Z Removing SSH command configuration
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9198552Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9235601Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9519398Z Removing HTTP extra header
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9523748Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9561656Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9836872Z Removing includeIf entries pointing to credentials config files
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9841141Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9876977Z includeif.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9880653Z includeif.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git/worktrees/*.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9883292Z includeif.gitdir:/github/workspace/.git.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9885749Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9890423Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9911487Z /home/runner/work/_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9925143Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-27fe9baf\-0b5f\-44c7\-a3a1\-5ab754401e5f\.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9963017Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git/worktrees/*.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:35.9989922Z /home/runner/work/_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0003221Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/ai-document-qa-rag/ai-document-qa-rag/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-27fe9baf\-0b5f\-44c7\-a3a1\-5ab754401e5f\.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0037613Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0062986Z /github/runner_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0073843Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-27fe9baf\-0b5f\-44c7\-a3a1\-5ab754401e5f\.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0108739Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0132352Z /github/runner_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0142341Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-27fe9baf\-0b5f\-44c7\-a3a1\-5ab754401e5f\.config
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0176229Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0452705Z Removing credentials config '/home/runner/work/_temp/git-credentials-27fe9baf-0b5f-44c7-a3a1-5ab754401e5f.config'
+offline-tests	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:32:36.0460904Z ##[endgroup]
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	﻿2026-11-23T17:32:36.0929552Z ##[group]Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0931307Z with:
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0932175Z   python-version: 3.13
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0933170Z   cache: pip
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0934067Z   check-latest: false
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0944011Z   token: ***
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0945504Z   mirror: https://raw.githubusercontent.com/actions/python-versions/main
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0947256Z   update-environment: true
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0948345Z   allow-prereleases: false
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0949437Z   freethreaded: false
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0950399Z env:
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0951213Z   USE_TF: 0
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0952085Z   OMP_NUM_THREADS: 4
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0953072Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.0954088Z ##[endgroup]
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.2157195Z ##[group]Installed versions
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.2252292Z Successfully set up CPython (3.13.18)
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.2254382Z ##[endgroup]
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.3249484Z [command]/opt/hostedtoolcache/Python/3.13.18/x64/bin/pip cache dir
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.5886651Z /home/runner/.cache/pip
+offline-tests	Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:32:36.7372019Z pip cache is not found
+offline-tests	Install offline test dependencies	﻿2026-11-23T17:32:36.7573366Z ##[group]Run python -m pip install -r requirements-ci.txt
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7575161Z ^[[36;1mpython -m pip install -r requirements-ci.txt^[[0m
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7617680Z shell: /usr/bin/bash -e {0}
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7618741Z env:
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7619536Z   USE_TF: 0
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7620356Z   OMP_NUM_THREADS: 4
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7621284Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7622536Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7624292Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib/pkgconfig
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7626759Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7628383Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7629986Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7631626Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib
+offline-tests	Install offline test dependencies	2026-11-23T17:32:36.7633012Z ##[endgroup]
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.5446038Z Collecting numpy==2.4.6 (from -r requirements-ci.txt (line 2))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.5682148Z   Downloading numpy-2.4.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.6994817Z Collecting PyMuPDF==1.28.2 (from -r requirements-ci.txt (line 3))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.7028719Z   Downloading pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl.metadata (26 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.7426452Z Collecting faiss-cpu==1.16.0 (from -r requirements-ci.txt (line 4))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.7465412Z   Downloading faiss_cpu-1.16.0-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (7.8 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.7765632Z Collecting streamlit==1.67.0 (from -r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.7798218Z   Downloading streamlit-1.67.0-py3-none-any.whl.metadata (10 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.8064417Z Collecting pytest==9.0.3 (from -r requirements-ci.txt (line 6))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.8098432Z   Downloading pytest-9.0.3-py3-none-any.whl.metadata (7.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.8259606Z Collecting pytest-cov==7.1.0 (from -r requirements-ci.txt (line 7))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:37.8293524Z   Downloading pytest_cov-7.1.0-py3-none-any.whl.metadata (32 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.1464866Z Collecting ruff==0.17.6 (from -r requirements-ci.txt (line 8))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.1499724Z   Downloading ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.1661007Z Collecting bandit==1.9.4 (from -r requirements-ci.txt (line 9))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.1691586Z   Downloading bandit-1.9.4-py3-none-any.whl.metadata (7.1 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.1892262Z Collecting packaging (from faiss-cpu==1.16.0->-r requirements-ci.txt (line 4))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.1923582Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.2089422Z Collecting altair!=5.4.0,!=5.4.1,<7,>=5.0.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.2120573Z   Downloading altair-6.3.0-py3-none-any.whl.metadata (11 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.2396290Z Collecting click<9,>=7.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.2434691Z   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.3758639Z Collecting pandas<4,>=1.5.3 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.3791804Z   Downloading pandas-3.1.1-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (16 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.5448735Z Collecting pillow<14,>=9.2.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.5481486Z   Downloading pillow-13.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.5648626Z Collecting pydeck<1,>=0.8.0b4 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.5679227Z   Downloading pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.7093318Z Collecting protobuf<8,>=5.26.1 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.7130403Z   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.7986058Z Collecting pyarrow!=25.0.0,<27,>=12.0.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8020629Z   Downloading pyarrow-26.0.1-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8240075Z Collecting requests<3,>=2.27 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8274501Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8444601Z Collecting typing-extensions<5,>=4.10.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8476763Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8704857Z Collecting starlette<2,>=0.46.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.8737126Z   Downloading starlette-1.10.0-py3-none-any.whl.metadata (6.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.9239510Z Collecting uvicorn<1,>=0.30.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.9271241Z   Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.9449594Z Collecting anyio<5,>=4.0.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.9479740Z   Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.9619456Z Collecting python-multipart<1,>=0.0.10 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:38.9649991Z   Downloading python_multipart-0.0.34-py3-none-any.whl.metadata (6.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.0903871Z Collecting websockets<18,>=12.0.0 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.0938986Z   Downloading websockets-17.4-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1059792Z Collecting itsdangerous<3,>=2.1.2 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1089676Z   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1519576Z Collecting watchdog<8,>=2.1.5 (from streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1550512Z   Downloading watchdog-7.1.1-py3-none-manylinux_2_17_x86_64.whl.metadata (69 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1693787Z Collecting iniconfig>=1.0.1 (from pytest==9.0.3->-r requirements-ci.txt (line 6))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1724101Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1848934Z Collecting pluggy<2,>=1.5 (from pytest==9.0.3->-r requirements-ci.txt (line 6))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.1880115Z   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.2052673Z Collecting pygments>=2.7.2 (from pytest==9.0.3->-r requirements-ci.txt (line 6))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.2086134Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.6283981Z Collecting coverage>=7.10.6 (from coverage[toml]>=7.10.6->pytest-cov==7.1.0->-r requirements-ci.txt (line 7))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.6318858Z   Downloading coverage-7.17.5-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.6726364Z Collecting PyYAML>=5.3.1 (from bandit==1.9.4->-r requirements-ci.txt (line 9))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.6759549Z   Downloading pyyaml-6.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.6951519Z Collecting stevedore>=1.20.0 (from bandit==1.9.4->-r requirements-ci.txt (line 9))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.6984205Z   Downloading stevedore-5.10.0-py3-none-any.whl.metadata (2.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.7333400Z Collecting rich (from bandit==1.9.4->-r requirements-ci.txt (line 9))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.7364985Z   Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.7533114Z Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.7563485Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.7782055Z Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.7811810Z   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.8137071Z Collecting narwhals>=2.4.0 (from altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.8173492Z   Downloading narwhals-2.29.0-py3-none-any.whl.metadata (15 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.8359757Z Collecting idna>=2.8 (from anyio<5,>=4.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.8390206Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.8548932Z Collecting python-dateutil>=2.9.0 (from pandas<4,>=1.5.3->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.8580601Z   Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.9908092Z Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:39.9943978Z   Downloading charset_normalizer-3.5.3-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (43 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.0182003Z Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.0212339Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.0390014Z Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.0420197Z   Downloading certifi-2026.11.20-py3-none-any.whl.metadata (2.5 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.0575391Z Collecting h11>=0.8 (from uvicorn<1,>=0.30.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.0605119Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1180998Z Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1213323Z   Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1344947Z Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1372845Z   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1494805Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1526032Z   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1712843Z Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.1742589Z   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4182283Z Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4216072Z   Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4411431Z Collecting tzdata (from python-dateutil>=2.9.0->pandas<4,>=1.5.3->streamlit==1.67.0->-r requirements-ci.txt (line 5))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4450098Z   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4616100Z Collecting markdown-it-py>=2.2.0 (from rich->bandit==1.9.4->-r requirements-ci.txt (line 9))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4649769Z   Downloading markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4787920Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->bandit==1.9.4->-r requirements-ci.txt (line 9))
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4816979Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.4897319Z Downloading numpy-2.4.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.5462868Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 329.6 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.5495431Z Downloading pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl (25.8 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.6259572Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.8/25.8 MB 345.4 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.6293496Z Downloading faiss_cpu-1.16.0-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (19.5 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.6965462Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.5/19.5 MB 297.0 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.6997047Z Downloading streamlit-1.67.0-py3-none-any.whl (11.2 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7337559Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 348.4 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7368677Z Downloading pytest-9.0.3-py3-none-any.whl (375 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7424874Z Downloading pytest_cov-7.1.0-py3-none-any.whl (22 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7471961Z Downloading ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.6 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7795943Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.6/10.6 MB 346.1 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7829712Z Downloading bandit-1.9.4-py3-none-any.whl (134 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7881664Z Downloading altair-6.3.0-py3-none-any.whl (797 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7936634Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.2/797.2 kB 161.6 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.7965801Z Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8016209Z Downloading click-8.5.1-py3-none-any.whl (126 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8069513Z Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8127290Z Downloading pandas-3.1.1-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.0 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8487780Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 349.0 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8520699Z Downloading pillow-13.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8741956Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 349.1 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8776044Z Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8824796Z Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:40.8882308Z Downloading pyarrow-26.0.1-cp313-cp313-manylinux_2_28_x86_64.whl (55.0 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0413359Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.0/55.0 MB 363.6 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0446175Z Downloading pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0806091Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 344.2 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0838515Z Downloading python_multipart-0.0.34-py3-none-any.whl (32 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0891841Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0944675Z Downloading charset_normalizer-3.5.3-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (256 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.0997291Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1044126Z Downloading starlette-1.10.0-py3-none-any.whl (80 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1094723Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1142902Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1191492Z Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1256426Z Downloading watchdog-7.1.1-py3-none-manylinux_2_17_x86_64.whl (116 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1309645Z Downloading websockets-17.4-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (226 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1363622Z Downloading certifi-2026.11.20-py3-none-any.whl (127 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1420510Z Downloading coverage-7.17.5-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (264 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1474048Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1520732Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1579217Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1632525Z Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1684214Z Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1735871Z Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1784719Z Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1833317Z Downloading narwhals-2.29.0-py3-none-any.whl (501 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1898442Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.1952166Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2027631Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 200.5 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2057959Z Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2111170Z Downloading pyyaml-6.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (838 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2171387Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 838.5/838.5 kB 155.0 MB/s  0:00:00
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2202597Z Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2252468Z Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (370 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2308439Z Downloading stevedore-5.10.0-py3-none-any.whl (56 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2363197Z Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2416017Z Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2464623Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.2520803Z Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+offline-tests	Install offline test dependencies	2026-11-23T17:32:41.6579594Z Installing collected packages: websockets, watchdog, urllib3, tzdata, typing-extensions, stevedore, ruff, rpds-py, PyYAML, python-multipart, PyMuPDF, pygments, pyarrow, protobuf, pluggy, pillow, packaging, numpy, narwhals, mdurl, MarkupSafe, itsdangerous, iniconfig, idna, h11, coverage, click, charset_normalizer, certifi, attrs, uvicorn, requests, referencing, python-dateutil, pytest, markdown-it-py, jinja2, faiss-cpu, anyio, starlette, rich, pytest-cov, pydeck, pandas, jsonschema-specifications, jsonschema, bandit, altair, streamlit
+offline-tests	Install offline test dependencies	2026-11-23T17:32:57.1852811Z
+offline-tests	Install offline test dependencies	2026-11-23T17:32:57.1918091Z Successfully installed MarkupSafe-3.0.4 PyMuPDF-1.28.2 PyYAML-6.0.4 altair-6.3.0 anyio-4.16.0 attrs-26.1.0 bandit-1.9.4 certifi-2026.11.20 charset_normalizer-3.5.3 click-8.5.1 coverage-7.17.5 faiss-cpu-1.16.0 h11-0.16.0 idna-3.20 iniconfig-2.3.1 itsdangerous-2.2.0 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 markdown-it-py-4.3.0 mdurl-0.1.2 narwhals-2.29.0 numpy-2.4.6 packaging-26.3 pandas-3.1.1 pillow-13.0.0 pluggy-1.7.0 protobuf-7.36.2 pyarrow-26.0.1 pydeck-0.9.3 pygments-2.21.0 pytest-9.0.3 pytest-cov-7.1.0 python-dateutil-4.0.0 python-multipart-0.0.34 referencing-0.37.0 requests-2.34.2 rich-15.0.0 rpds-py-2026.9.1 ruff-0.17.6 starlette-1.10.0 stevedore-5.10.0 streamlit-1.67.0 typing-extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 uvicorn-0.54.0 watchdog-7.1.1 websockets-17.4
+offline-tests	Install project without model dependencies	﻿2026-11-23T17:32:57.3453410Z ##[group]Run python -m pip install --no-deps -e .
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3453843Z ^[[36;1mpython -m pip install --no-deps -e .^[[0m
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3488928Z shell: /usr/bin/bash -e {0}
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3489187Z env:
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3489370Z   USE_TF: 0
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3489561Z   OMP_NUM_THREADS: 4
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3489783Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3490085Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3490542Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib/pkgconfig
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3490974Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3491371Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3491752Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3492135Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.3492461Z ##[endgroup]
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.6822536Z Obtaining file:///home/runner/work/ai-document-qa-rag/ai-document-qa-rag
+offline-tests	Install project without model dependencies	2026-11-23T17:32:57.6839232Z   Installing build dependencies: started
+offline-tests	Install project without model dependencies	2026-11-23T17:32:58.3489592Z   Installing build dependencies: finished with status 'done'
+offline-tests	Install project without model dependencies	2026-11-23T17:32:58.3495753Z   Checking if build backend supports build_editable: started
+offline-tests	Install project without model dependencies	2026-11-23T17:32:58.7522743Z   Checking if build backend supports build_editable: finished with status 'done'
+offline-tests	Install project without model dependencies	2026-11-23T17:32:58.7531277Z   Getting requirements to build editable: started
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.1079602Z   Getting requirements to build editable: finished with status 'done'
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.1089373Z   Preparing editable metadata (pyproject.toml): started
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.3138978Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.3208705Z Building wheels for collected packages: ai-document-qa-rag
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.3216912Z   Building editable for ai-document-qa-rag (pyproject.toml): started
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.5468731Z   Building editable for ai-document-qa-rag (pyproject.toml): finished with status 'done'
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.5475833Z   Created wheel for ai-document-qa-rag: filename=ai_document_qa_rag-1.0.0-0.editable-py3-none-any.whl size=13611 sha256=617c99da55a5f1074bbe635441aace22f8a5b9415e463f105b2e063d31ce167f
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.5478542Z   Stored in directory: /tmp/pip-ephem-wheel-cache-ru_g_o2g/wheels/ca/35/db/f3c067b2083d06750d730b9cf3311b68749e0f8f10156c56c2
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.5500583Z Successfully built ai-document-qa-rag
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.5670285Z Installing collected packages: ai-document-qa-rag
+offline-tests	Install project without model dependencies	2026-11-23T17:32:59.5786669Z Successfully installed ai-document-qa-rag-1.0.0
+offline-tests	Unit, persistence, security regression, and UI smoke tests	﻿2026-11-23T17:32:59.6462785Z ##[group]Run python -m pytest -m "not integration" --junitxml=test-results.xml --cov=ragqa
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6463466Z ^[[36;1mpython -m pytest -m "not integration" --junitxml=test-results.xml --cov=ragqa^[[0m
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6496998Z shell: /usr/bin/bash -e {0}
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6497259Z env:
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6497439Z   USE_TF: 0
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6497629Z   OMP_NUM_THREADS: 4
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6497855Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6498164Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6498620Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib/pkgconfig
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6499050Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6499442Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6499820Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6500202Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:32:59.6500521Z ##[endgroup]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8582216Z ============================= test session starts ==============================
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8583244Z platform linux -- Python 3.13.18, pytest-9.0.3, pluggy-1.7.0
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8602627Z rootdir: /home/runner/work/ai-document-qa-rag/ai-document-qa-rag
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8603342Z configfile: pyproject.toml
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8603751Z testpaths: tests
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8604137Z plugins: anyio-4.16.0, cov-7.1.0
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8604546Z collected 81 items / 3 deselected / 78 selected
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:01.8604804Z
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:02.2767637Z tests/test_app.py .                                                      [  1%]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:02.2868498Z tests/test_chunking.py ......                                            [  8%]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:02.3423034Z tests/test_generator.py .......                                          [ 17%]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:02.4394584Z tests/test_pdf.py .....................                                  [ 44%]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:02.5663281Z tests/test_pipeline.py ...............                                   [ 64%]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0002267Z tests/test_store.py ............................                         [100%]
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0002951Z
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0003530Z - generated xml file: /home/runner/work/ai-document-qa-rag/ai-document-qa-rag/test-results.xml -
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0004590Z ================================ tests coverage ================================
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0005759Z _______________ coverage: platform linux, python 3.13.18-final-0 _______________
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0006365Z
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0006562Z Name                        Stmts   Miss  Cover
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0007136Z -----------------------------------------------
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0007705Z src/ragqa/__init__.py           0      0   100%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0008272Z src/ragqa/chunking.py          16      0   100%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0008774Z src/ragqa/config.py            21      0   100%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0009381Z src/ragqa/embeddings.py        25     18    28%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0010056Z src/ragqa/evaluation.py         8      0   100%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0010715Z src/ragqa/generator.py         72     22    69%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0011318Z src/ragqa/models.py            44      0   100%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0011864Z src/ragqa/pdf_loader.py        52      0   100%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0012351Z src/ragqa/rag_pipeline.py      66      3    95%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0012834Z src/ragqa/vector_store.py     139     13    91%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0013708Z -----------------------------------------------
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0014162Z TOTAL                         443     56    87%
+offline-tests	Unit, persistence, security regression, and UI smoke tests	2026-11-23T17:33:03.0014686Z ======================= 78 passed, 3 deselected in 1.66s =======================
+offline-tests	Lint and formatting	﻿2026-11-23T17:33:03.1535824Z ##[group]Run python -m ruff check .
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1536212Z ^[[36;1mpython -m ruff check .^[[0m
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1536498Z ^[[36;1mpython -m ruff format --check .^[[0m
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1569621Z shell: /usr/bin/bash -e {0}
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1569881Z env:
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1570070Z   USE_TF: 0
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1570266Z   OMP_NUM_THREADS: 4
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1570490Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1570796Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1571244Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib/pkgconfig
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1571686Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1572085Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1572472Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1572890Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1573219Z ##[endgroup]
+offline-tests	Lint and formatting	2026-11-23T17:33:03.1968989Z All checks passed!
+offline-tests	Lint and formatting	2026-11-23T17:33:03.2316911Z 33 files already formatted
+offline-tests	Static security checks	﻿2026-11-23T17:33:03.2351198Z ##[group]Run python -m bandit -r src app.py scripts -ll
+offline-tests	Static security checks	2026-11-23T17:33:03.2351662Z ^[[36;1mpython -m bandit -r src app.py scripts -ll^[[0m
+offline-tests	Static security checks	2026-11-23T17:33:03.2385092Z shell: /usr/bin/bash -e {0}
+offline-tests	Static security checks	2026-11-23T17:33:03.2385571Z env:
+offline-tests	Static security checks	2026-11-23T17:33:03.2385756Z   USE_TF: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.2385945Z   OMP_NUM_THREADS: 4
+offline-tests	Static security checks	2026-11-23T17:33:03.2386165Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Static security checks	2026-11-23T17:33:03.2386465Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Static security checks	2026-11-23T17:33:03.2386927Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib/pkgconfig
+offline-tests	Static security checks	2026-11-23T17:33:03.2387380Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Static security checks	2026-11-23T17:33:03.2387798Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Static security checks	2026-11-23T17:33:03.2388178Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Static security checks	2026-11-23T17:33:03.2388562Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib
+offline-tests	Static security checks	2026-11-23T17:33:03.2388884Z ##[endgroup]
+offline-tests	Static security checks	2026-11-23T17:33:03.3922402Z [main]	INFO	profile include tests: None
+offline-tests	Static security checks	2026-11-23T17:33:03.3923374Z [main]	INFO	profile exclude tests: None
+offline-tests	Static security checks	2026-11-23T17:33:03.3924064Z [main]	INFO	cli include tests: None
+offline-tests	Static security checks	2026-11-23T17:33:03.3924648Z [main]	INFO	cli exclude tests: None
+offline-tests	Static security checks	2026-11-23T17:33:03.3925412Z [main]	INFO	running on Python 3.13.18
+offline-tests	Static security checks	2026-11-23T17:33:03.5523881Z Run started:2026-11-23 17:33:03.552152+00:00
+offline-tests	Static security checks	2026-11-23T17:33:03.5524440Z
+offline-tests	Static security checks	2026-11-23T17:33:03.5524772Z Test results:
+offline-tests	Static security checks	2026-11-23T17:33:03.5525099Z 	No issues identified.
+offline-tests	Static security checks	2026-11-23T17:33:03.5525527Z
+offline-tests	Static security checks	2026-11-23T17:33:03.5525674Z Code scanned:
+offline-tests	Static security checks	2026-11-23T17:33:03.5526025Z 	Total lines of code: 1500
+offline-tests	Static security checks	2026-11-23T17:33:03.5526557Z 	Total lines skipped (#nosec): 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5527325Z 	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 2
+offline-tests	Static security checks	2026-11-23T17:33:03.5527992Z
+offline-tests	Static security checks	2026-11-23T17:33:03.5528252Z Run metrics:
+offline-tests	Static security checks	2026-11-23T17:33:03.5528556Z 	Total issues (by severity):
+offline-tests	Static security checks	2026-11-23T17:33:03.5528897Z 		Undefined: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5529283Z 		Low: 1
+offline-tests	Static security checks	2026-11-23T17:33:03.5529583Z 		Medium: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5529936Z 		High: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5530246Z 	Total issues (by confidence):
+offline-tests	Static security checks	2026-11-23T17:33:03.5530595Z 		Undefined: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5530962Z 		Low: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5531244Z 		Medium: 0
+offline-tests	Static security checks	2026-11-23T17:33:03.5531587Z 		High: 1
+offline-tests	Static security checks	2026-11-23T17:33:03.5531873Z Files skipped (0):
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	﻿2026-11-23T17:33:03.5888881Z ##[group]Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5889310Z with:
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5889507Z   name: test-results
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5889727Z   path: test-results.xml
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5889953Z   retention-days: 7
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5890327Z   if-no-files-found: warn
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5890560Z   compression-level: 6
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5890771Z   overwrite: false
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5890980Z   include-hidden-files: false
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5891210Z   archive: true
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5891399Z env:
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5891581Z   USE_TF: 0
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5891765Z   OMP_NUM_THREADS: 4
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5891975Z   OPENBLAS_NUM_THREADS: 4
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5892264Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5892705Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib/pkgconfig
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5893126Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5893502Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5893920Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.18/x64
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5894306Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.18/x64/lib
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.5894628Z ##[endgroup]
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.7408319Z With the provided path, there will be 1 file uploaded
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.7409632Z Artifact name is valid!
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.7410033Z Root directory input is valid!
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.9740082Z Uploading artifact: test-results.zip
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:03.9783355Z Beginning upload of artifact content to blob storage
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.1102620Z Uploaded bytes 1546
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.1398064Z Finished uploading artifact content to blob storage!
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.1399561Z SHA256 digest of uploaded artifact is 457fc4bf02d91bdffbce24f21a45114cc5df0f3ab7d9962393c1e23fc069d175
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.1400984Z Finalizing artifact upload
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.5505983Z Artifact test-results successfully finalized. Artifact ID 14847231033
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.5507873Z Artifact test-results has been successfully uploaded! Final size is 1546 bytes. Artifact ID is 14847231033
+offline-tests	Run actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9	2026-11-23T17:33:04.5512451Z Artifact download URL: https://github.com/nguyenbao140506-debug/ai-document-qa-rag/actions/runs/45228776486/artifacts/14847231033
+offline-tests	Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	﻿2026-11-23T17:33:04.5698350Z Post job cleanup.
+offline-tests	Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:33:04.7119268Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/ai-document-qa-rag/ai-document-qa-rag --files-from manifest.txt --use-compress-program zstdmt
+offline-tests	Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:33:06.1803591Z Sent 0 of 181923619 (0.0%), 0.0 MBs/sec
+offline-tests	Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:33:06.4962549Z Sent 181923619 of 181923619 (100.0%), 131.8 MBs/sec
+offline-tests	Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0	2026-11-23T17:33:06.6876659Z Cache saved with the key: setup-python-Linux-x64-26.04-Ubuntu-python-3.13.18-pip-e6befaeb01c745bda36c7c8dc1f14ab6ce73563d1f62385f75bf4577c251b39e
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-11-23T17:33:06.7141378Z Post job cleanup.
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8052095Z [command]/usr/bin/git version
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8103557Z git version 2.56.1
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8147276Z Temporarily overriding HOME='/home/runner/work/_temp/71ff2c83-d93a-482b-a84c-6e1989318a53' before making global git config changes
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8148788Z Adding repository directory to the temporary git global config as a safe directory
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8152429Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ai-document-qa-rag/ai-document-qa-rag
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8190645Z Removing SSH command configuration
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8198993Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8246191Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8582486Z Removing HTTP extra header
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8590232Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8636049Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8956057Z Removing includeIf entries pointing to credentials config files
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.8962418Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+offline-tests	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-11-23T17:33:06.9029684Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+offline-tests	Complete job	﻿2026-11-23T17:33:06.9491735Z Cleaning up orphan processes

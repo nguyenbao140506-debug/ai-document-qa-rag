@@ -63,6 +63,6 @@ The preceding sections are the initial audit, not the final project state. The c
 - Transformers was upgraded to 5.24.0, and vulnerable inherited transitive packages were overridden only inside `.venv`. The 67-package runtime closure passed the final known-vulnerability audit.
 - Full pytest suite after review fixes: 81 passed, package statement coverage 91.2%; Ruff, formatting, Bandit and `pip check` passed.
 - Original synthetic corpus and real experiment outputs were generated; genuine running-app screenshots were captured.
-- Set up and authenticated the exact `project CV` C2C connector after the user's project-specific authorization. An actual ChatGPT PLAN was received, and actual source/test review is in progress in the saved chat. No sandbox roots were changed.
+- Set up and authenticated the exact `project CV` C2C connector after the user's project-specific authorization. An actual ChatGPT PLAN was received, and actual source/test review returned DONE for implementation in iteration 2. No sandbox roots were changed.
 - Located the GitHub account `nguyenbao140506-debug` in Git Credential Manager and verified its identity through the GitHub API without printing or writing its token. Earlier device-code login attempts expired or had a TLS timeout; the existing authorized session avoids creating new credentials.
 - Repository creation/push and remote Actions verification are recorded in `PUBLICATION.md` only after those actions actually succeed.

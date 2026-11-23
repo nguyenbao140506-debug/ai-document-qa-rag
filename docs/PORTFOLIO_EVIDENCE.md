@@ -97,4 +97,4 @@ For offline CI-style checks use `python -m pytest -m "not integration"`. The rea
 
 The project used an actual ChatGPT planning session through the authenticated, workspace-scoped `project CV` connector. Actual source/diff/test review completed in iteration 2 with **DONE for implementation**. See [`C2C_REVIEW.md`](C2C_REVIEW.md) for the inspected evidence, requested fixes, accepted limitations, and final review outcome.
 
-Target repository: `https://github.com/nguyenbao140506-debug/ai-document-qa-rag`. No publication or remote CI success is asserted by this document until a remote commit hash and verified workflow result are recorded in `PUBLICATION.md`.
+Published repository: [nguyenbao140506-debug/ai-document-qa-rag](https://github.com/nguyenbao140506-debug/ai-document-qa-rag). The remote implementation hash matched locally, and GitHub Actions passed all 78 offline tests plus lint/format and Bandit. Exact commit, run URL, and retained remote logs are recorded in [`PUBLICATION.md`](PUBLICATION.md). The 81-test local suite includes three real-model integration tests omitted from offline CI.
