@@ -1,0 +1,6 @@
+C:\Users\ADMIN\Documents\ChatGPT\project CV\src\ragqa\embeddings.py:28: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.dimension = self.model.get_sentence_embedding_dimension()
+Token indices sequence length is longer than the specified maximum sequence length for this model (297 > 256). Running this sequence through the model will result in indexing errors
+{"chunking": {"tokens": 128, "overlap": 24}, "metrics": {"recall@1": 0.8888888888888888, "recall@3": 1.0, "recall@5": 1.0, "mrr@5": 0.9398148148148147, "retrieval_p50_ms": 4.483250000021144, "retrieval_p95_ms": 6.174319999990982, "build_ms": 548.8608000000568}}
+{"chunking": {"tokens": 224, "overlap": 48}, "metrics": {"recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "mrr@5": 1.0, "retrieval_p50_ms": 4.430100000035964, "retrieval_p95_ms": 5.430939999996553, "build_ms": 553.4741000001304}}
+Saved measured report: C:\Users\ADMIN\Documents\ChatGPT\project CV\evaluation\results\retrieval.json

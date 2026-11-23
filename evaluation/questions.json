@@ -1,0 +1,410 @@
+[
+  {
+    "id": "q01",
+    "question": "How long are Cedar research backups retained?",
+    "filename": "cedar-research.pdf",
+    "page": 1,
+    "evidence": "Cedar research backups are retained for 45 days before automatic deletion.",
+    "expected_answer": "45 days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q02",
+    "question": "Who approves access to the Cedar research archive?",
+    "filename": "cedar-research.pdf",
+    "page": 1,
+    "evidence": "Access to the Cedar research archive requires approval from the data steward.",
+    "expected_answer": "data steward",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q03",
+    "question": "Above what amount do Cedar equipment purchases need two approvals?",
+    "filename": "cedar-research.pdf",
+    "page": 2,
+    "evidence": "Cedar research equipment purchases above 600 credits require two approvals.",
+    "expected_answer": "600 credits",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q04",
+    "question": "When must Cedar travel receipts be submitted?",
+    "filename": "cedar-research.pdf",
+    "page": 2,
+    "evidence": "Cedar travel receipts must be submitted within 12 working days of return.",
+    "expected_answer": "12 working days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q05",
+    "question": "How quickly must Cedar research incidents be reported?",
+    "filename": "cedar-research.pdf",
+    "page": 3,
+    "evidence": "Cedar research incident reports must be filed within 4 hours of discovery.",
+    "expected_answer": "4 hours",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q06",
+    "question": "In which month is the Cedar annual dataset review held?",
+    "filename": "cedar-research.pdf",
+    "page": 3,
+    "evidence": "The Cedar annual dataset review is held every September.",
+    "expected_answer": "September",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q07",
+    "question": "How long does Harbor keep raw telescope observations?",
+    "filename": "harbor-observatory.pdf",
+    "page": 1,
+    "evidence": "Harbor Observatory retains raw telescope observations for 180 days.",
+    "expected_answer": "180 days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q08",
+    "question": "What is the Harbor telescope booking interval?",
+    "filename": "harbor-observatory.pdf",
+    "page": 1,
+    "evidence": "Harbor telescope reservations are allocated in 90-minute blocks.",
+    "expected_answer": "90-minute",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q09",
+    "question": "At what wind speed does the Harbor dome close?",
+    "filename": "harbor-observatory.pdf",
+    "page": 2,
+    "evidence": "The Harbor observatory dome must close when wind speed exceeds 35 kilometers per hour.",
+    "expected_answer": "35 kilometers per hour",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q10",
+    "question": "Who gives clearance to reopen the Harbor dome?",
+    "filename": "harbor-observatory.pdf",
+    "page": 2,
+    "evidence": "Only the Harbor duty astronomer can authorize reopening the dome.",
+    "expected_answer": "duty astronomer",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q11",
+    "question": "How often is the Harbor primary mirror inspected?",
+    "filename": "harbor-observatory.pdf",
+    "page": 3,
+    "evidence": "The Harbor primary mirror is inspected every 6 weeks.",
+    "expected_answer": "6 weeks",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q12",
+    "question": "What is the maximum size of a Harbor guided group?",
+    "filename": "harbor-observatory.pdf",
+    "page": 3,
+    "evidence": "Harbor guided observatory visits are limited to 14 visitors per group.",
+    "expected_answer": "14 visitors",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q13",
+    "question": "What temperature is used for Willow seed storage?",
+    "filename": "willow-garden.pdf",
+    "page": 1,
+    "evidence": "Willow seed collections are stored at minus 18 degrees Celsius.",
+    "expected_answer": "minus 18",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q14",
+    "question": "How often are Willow seed germination tests performed?",
+    "filename": "willow-garden.pdf",
+    "page": 1,
+    "evidence": "Willow seed germination tests are performed every 24 months.",
+    "expected_answer": "24 months",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q15",
+    "question": "When does Willow irrigate the greenhouse?",
+    "filename": "willow-garden.pdf",
+    "page": 2,
+    "evidence": "Willow greenhouse irrigation starts at 05:30 each morning.",
+    "expected_answer": "05:30",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q16",
+    "question": "Who may enter the Willow quarantine room?",
+    "filename": "willow-garden.pdf",
+    "page": 2,
+    "evidence": "Only trained plant health technicians may enter the Willow quarantine room.",
+    "expected_answer": "plant health technicians",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q17",
+    "question": "How many training hours do Willow volunteers complete?",
+    "filename": "willow-garden.pdf",
+    "page": 3,
+    "evidence": "Willow volunteers complete 8 hours of supervised training before independent work.",
+    "expected_answer": "8 hours",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q18",
+    "question": "How long are Willow soil samples retained?",
+    "filename": "willow-garden.pdf",
+    "page": 3,
+    "evidence": "Willow soil samples are retained for 21 days after analysis.",
+    "expected_answer": "21 days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q19",
+    "question": "At what battery level must Atlas robots return to charge?",
+    "filename": "atlas-robotics.pdf",
+    "page": 1,
+    "evidence": "Atlas mobile robots return to the charging station when battery charge falls below 25 percent.",
+    "expected_answer": "25 percent",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q20",
+    "question": "Where may Atlas lithium batteries be charged?",
+    "filename": "atlas-robotics.pdf",
+    "page": 1,
+    "evidence": "Atlas lithium batteries may be charged only inside the ventilated charging cabinet.",
+    "expected_answer": "ventilated charging cabinet",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q21",
+    "question": "What is the Atlas robot speed limit near people?",
+    "filename": "atlas-robotics.pdf",
+    "page": 2,
+    "evidence": "The Atlas robot speed limit within two meters of a person is 0.4 meters per second.",
+    "expected_answer": "0.4 meters per second",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q22",
+    "question": "Who resets the Atlas emergency stop after an incident?",
+    "filename": "atlas-robotics.pdf",
+    "page": 2,
+    "evidence": "The Atlas laboratory safety officer must approve an emergency-stop reset after an incident.",
+    "expected_answer": "safety officer",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q23",
+    "question": "How long does Atlas retain robot telemetry?",
+    "filename": "atlas-robotics.pdf",
+    "page": 3,
+    "evidence": "Atlas robot telemetry logs are retained for 60 days.",
+    "expected_answer": "60 days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q24",
+    "question": "How frequently are Atlas force sensors calibrated?",
+    "filename": "atlas-robotics.pdf",
+    "page": 3,
+    "evidence": "Atlas force sensors are calibrated after every 120 operating hours.",
+    "expected_answer": "120 operating hours",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q25",
+    "question": "How far apart are Delta coastal sampling stations?",
+    "filename": "delta-coastal.pdf",
+    "page": 1,
+    "evidence": "Delta coastal sampling stations are spaced 250 meters apart along each transect.",
+    "expected_answer": "250 meters",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q26",
+    "question": "What temperature range is required for Delta water samples in transit?",
+    "filename": "delta-coastal.pdf",
+    "page": 1,
+    "evidence": "Delta water samples must remain between 2 and 6 degrees Celsius during transport.",
+    "expected_answer": "2 and 6 degrees Celsius",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q27",
+    "question": "What minimum team size is required for Delta coastal surveys?",
+    "filename": "delta-coastal.pdf",
+    "page": 2,
+    "evidence": "Every Delta coastal survey team must include at least 3 trained members.",
+    "expected_answer": "3 trained members",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q28",
+    "question": "What happens to Delta surveys during a lightning warning?",
+    "filename": "delta-coastal.pdf",
+    "page": 2,
+    "evidence": "Delta coastal surveys are suspended immediately when a lightning warning is issued.",
+    "expected_answer": "suspended immediately",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q29",
+    "question": "When are Delta field reports due?",
+    "filename": "delta-coastal.pdf",
+    "page": 3,
+    "evidence": "Delta field reports are due within 48 hours after the survey ends.",
+    "expected_answer": "48 hours",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q30",
+    "question": "How frequently are Delta salinity probes checked against a reference?",
+    "filename": "delta-coastal.pdf",
+    "page": 3,
+    "evidence": "Delta salinity probes are checked against a reference solution every morning.",
+    "expected_answer": "every morning",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q31",
+    "question": "How long can Maple members borrow ordinary books?",
+    "filename": "maple-library.pdf",
+    "page": 1,
+    "evidence": "Maple Library members may borrow ordinary books for 28 days.",
+    "expected_answer": "28 days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q32",
+    "question": "How many renewals does Maple allow for an unreserved book?",
+    "filename": "maple-library.pdf",
+    "page": 1,
+    "evidence": "Maple Library permits at most 2 renewals for a book without a waiting reservation.",
+    "expected_answer": "2 renewals",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q33",
+    "question": "What is the maximum Maple study room booking length?",
+    "filename": "maple-library.pdf",
+    "page": 2,
+    "evidence": "Maple study rooms can be reserved for a maximum of 3 hours per day.",
+    "expected_answer": "3 hours",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q34",
+    "question": "How much notice is required to consult Maple rare manuscripts?",
+    "filename": "maple-library.pdf",
+    "page": 2,
+    "evidence": "Researchers must request Maple rare manuscripts at least 5 working days before their visit.",
+    "expected_answer": "5 working days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q35",
+    "question": "What is the Maple grace period for overdue ordinary books?",
+    "filename": "maple-library.pdf",
+    "page": 3,
+    "evidence": "Maple Library provides a 2-day grace period for overdue ordinary books.",
+    "expected_answer": "2-day",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "q36",
+    "question": "When should Maple accessible-format requests be submitted?",
+    "filename": "maple-library.pdf",
+    "page": 3,
+    "evidence": "Maple accessible-format requests should be submitted 10 working days before the material is needed.",
+    "expected_answer": "10 working days",
+    "answerable": true,
+    "split": "evaluation"
+  },
+  {
+    "id": "n01",
+    "question": "What is the capital city of France?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n02",
+    "question": "What is the administrator password for the Cedar archive?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n03",
+    "question": "How much is the annual membership fee at Maple Library?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n04",
+    "question": "Who founded the Harbor Observatory?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n05",
+    "question": "What is the exact GPS location of the Willow garden?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n06",
+    "question": "What brand of processor powers the Atlas robots?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n07",
+    "question": "What is the Delta project's annual budget?",
+    "answerable": false,
+    "split": "evaluation"
+  },
+  {
+    "id": "n08",
+    "question": "Which country won the 2022 football World Cup?",
+    "answerable": false,
+    "split": "evaluation"
+  }
+]

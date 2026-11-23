@@ -1,0 +1,58 @@
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 3550.70it/s]
+{"chunking": {"tokens": 128, "overlap": 24}, "metrics": {"recall@1": 0.8888888888888888, "recall@3": 1.0, "recall@5": 1.0, "mrr@5": 0.9398148148148147, "retrieval_p50_ms": 4.642300000341493, "retrieval_p95_ms": 5.921684999657372, "build_ms": 1914.9420000003374}}
+{"chunking": {"tokens": 224, "overlap": 48}, "metrics": {"recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "mrr@5": 1.0, "retrieval_p50_ms": 4.584450000038487, "retrieval_p95_ms": 5.285015000163184, "build_ms": 516.3950999994995}}
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  13%|#2        | 37/290 [00:00<00:00, 369.67it/s]
+Loading weights:  34%|###4      | 100/290 [00:00<00:00, 519.11it/s]
+Loading weights:  52%|#####2    | 152/290 [00:00<00:00, 511.33it/s]
+Loading weights:  70%|#######   | 204/290 [00:00<00:00, 496.79it/s]
+Loading weights:  88%|########7 | 255/290 [00:00<00:00, 498.53it/s]
+Loading weights: 100%|##########| 290/290 [00:00<00:00, 510.15it/s]
+q01: local-evidence; expected fact=True; generation=598.9 ms
+q02: local-evidence; expected fact=True; generation=284.2 ms
+q03: local-evidence; expected fact=True; generation=246.8 ms
+q04: local-evidence; expected fact=True; generation=318.5 ms
+q05: local-evidence; expected fact=True; generation=222.9 ms
+q06: insufficient; expected fact=False; generation=255.1 ms
+q07: local-evidence; expected fact=True; generation=235.3 ms
+q08: insufficient; expected fact=False; generation=232.6 ms
+q09: insufficient; expected fact=False; generation=243.4 ms
+q10: local-evidence; expected fact=True; generation=226.1 ms
+q11: local-evidence; expected fact=True; generation=228.0 ms
+q12: insufficient; expected fact=False; generation=223.5 ms
+q13: local-evidence; expected fact=True; generation=223.5 ms
+q14: local-evidence; expected fact=True; generation=227.5 ms
+q15: local-evidence; expected fact=True; generation=224.4 ms
+q16: local-evidence; expected fact=True; generation=225.4 ms
+q17: insufficient; expected fact=False; generation=252.7 ms
+q18: local-evidence; expected fact=True; generation=326.1 ms
+q19: local-evidence; expected fact=True; generation=225.1 ms
+q20: local-evidence; expected fact=True; generation=250.3 ms
+q21: insufficient; expected fact=False; generation=259.6 ms
+q22: local-evidence; expected fact=True; generation=250.8 ms
+q23: local-evidence; expected fact=True; generation=224.0 ms
+q24: local-evidence; expected fact=True; generation=234.4 ms
+q25: local-evidence; expected fact=True; generation=214.8 ms
+q26: local-evidence; expected fact=True; generation=225.8 ms
+q27: local-evidence; expected fact=True; generation=222.8 ms
+q28: local-evidence; expected fact=True; generation=233.3 ms
+q29: local-evidence; expected fact=True; generation=237.6 ms
+q30: local-evidence; expected fact=True; generation=232.2 ms
+q31: local-evidence; expected fact=True; generation=213.8 ms
+q32: local-evidence; expected fact=True; generation=235.0 ms
+q33: local-evidence; expected fact=True; generation=228.1 ms
+q34: local-evidence; expected fact=True; generation=254.4 ms
+q35: local-evidence; expected fact=True; generation=222.9 ms
+q36: local-evidence; expected fact=True; generation=259.9 ms
+n01: insufficient; expected fact=False; generation=0.0 ms
+n02: insufficient; expected fact=False; generation=275.7 ms
+n03: insufficient; expected fact=False; generation=333.7 ms
+n04: insufficient; expected fact=False; generation=336.1 ms
+n05: insufficient; expected fact=False; generation=326.0 ms
+n06: insufficient; expected fact=False; generation=355.8 ms
+n07: insufficient; expected fact=False; generation=321.7 ms
+n08: insufficient; expected fact=False; generation=0.0 ms
+Saved measured report: C:\Users\ADMIN\Documents\ChatGPT\project CV\evaluation\results\full.json

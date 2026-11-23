@@ -1,0 +1,287 @@
+Windows fatal exception: code 0xc0000008
+
+Current thread 0x000047dc (most recent call first):
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1317 in create_module
+  File "<frozen importlib._bootstrap>", line 813 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 921 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\swigfaiss.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\loader.py", line 187 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\__init__.py", line 149 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\src\ragqa\vector_store.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\tests\test_integration.py", line 9 in <module>
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\assertion\rewrite.py", line 197 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\ProgramData\miniconda3\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\pathlib.py", line 587 in import_path
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 507 in importtestmodule
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 560 in _getobj
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 289 in obj
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 576 in _register_setup_module_fixture
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 563 in collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 398 in collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 353 in from_call
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 400 in pytest_make_collect_report
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 576 in collect_one_node
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 883 in _collect_one_node
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 1020 in genitems
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 1023 in genitems
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 857 in perform_collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 382 in pytest_collection
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 371 in _main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 318 in wrap_session
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 365 in pytest_cmdline_main
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\config\__init__.py", line 199 in main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\config\__init__.py", line 223 in console_main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\pytest\__main__.py", line 9 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Windows fatal exception: code 0xc0000008
+
+Current thread 0x000047dc (most recent call first):
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1317 in create_module
+  File "<frozen importlib._bootstrap>", line 813 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 921 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\swigfaiss.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\loader.py", line 187 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\__init__.py", line 149 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\src\ragqa\vector_store.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\tests\test_pipeline.py", line 8 in <module>
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\assertion\rewrite.py", line 197 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\ProgramData\miniconda3\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\pathlib.py", line 587 in import_path
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 507 in importtestmodule
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 560 in _getobj
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 289 in obj
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 576 in _register_setup_module_fixture
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 563 in collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 398 in collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 353 in from_call
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 400 in pytest_make_collect_report
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 576 in collect_one_node
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 883 in _collect_one_node
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 1020 in genitems
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 1023 in genitems
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 857 in perform_collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 382 in pytest_collection
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 371 in _main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 318 in wrap_session
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 365 in pytest_cmdline_main
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\config\__init__.py", line 199 in main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\config\__init__.py", line 223 in console_main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\pytest\__main__.py", line 9 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Windows fatal exception: code 0xc0000008
+
+Current thread 0x000047dc (most recent call first):
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1317 in create_module
+  File "<frozen importlib._bootstrap>", line 813 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 921 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\swigfaiss.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\loader.py", line 187 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\.venv\Lib\site-packages\faiss\__init__.py", line 149 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\src\ragqa\vector_store.py", line 9 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1023 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "C:\Users\ADMIN\Documents\ChatGPT\project CV\tests\test_store.py", line 9 in <module>
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\assertion\rewrite.py", line 197 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1387 in _gcd_import
+  File "C:\ProgramData\miniconda3\Lib\importlib\__init__.py", line 88 in import_module
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\pathlib.py", line 587 in import_path
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 507 in importtestmodule
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 560 in _getobj
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 289 in obj
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 576 in _register_setup_module_fixture
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 563 in collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 398 in collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 353 in from_call
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 400 in pytest_make_collect_report
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 576 in collect_one_node
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 883 in _collect_one_node
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 1020 in genitems
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 1023 in genitems
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 857 in perform_collect
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 382 in pytest_collection
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 371 in _main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 318 in wrap_session
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\main.py", line 365 in pytest_cmdline_main
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_callers.py", line 103 in _multicall
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\ProgramData\miniconda3\Lib\site-packages\pluggy\_hooks.py", line 513 in __call__
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\config\__init__.py", line 199 in main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\_pytest\config\__init__.py", line 223 in console_main
+  File "C:\Users\ADMIN\AppData\Roaming\Python\Python313\site-packages\pytest\__main__.py", line 9 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+
+=================================== ERRORS ====================================
+_________________ ERROR collecting tests/test_integration.py __________________
+ImportError while importing test module 'C:\Users\ADMIN\Documents\ChatGPT\project CV\tests\test_integration.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\ProgramData\miniconda3\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_integration.py:9: in <module>
+    from ragqa.vector_store import VectorStore
+src\ragqa\vector_store.py:9: in <module>
+    import faiss
+.venv\Lib\site-packages\faiss\__init__.py:149: in <module>
+    from .loader import *
+.venv\Lib\site-packages\faiss\loader.py:187: in <module>
+    from .swigfaiss import *  # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\faiss\swigfaiss.py:10: in <module>
+    from . import _swigfaiss
+E   ImportError: DLL load failed while importing _swigfaiss: A dynamic link library (DLL) initialization routine failed.
+___________________ ERROR collecting tests/test_pipeline.py ___________________
+ImportError while importing test module 'C:\Users\ADMIN\Documents\ChatGPT\project CV\tests\test_pipeline.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\ProgramData\miniconda3\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_pipeline.py:8: in <module>
+    from ragqa.vector_store import VectorStore
+src\ragqa\vector_store.py:9: in <module>
+    import faiss
+.venv\Lib\site-packages\faiss\__init__.py:149: in <module>
+    from .loader import *
+.venv\Lib\site-packages\faiss\loader.py:187: in <module>
+    from .swigfaiss import *  # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\faiss\swigfaiss.py:10: in <module>
+    from . import _swigfaiss
+E   ImportError: DLL load failed while importing _swigfaiss: A dynamic link library (DLL) initialization routine failed.
+____________________ ERROR collecting tests/test_store.py _____________________
+ImportError while importing test module 'C:\Users\ADMIN\Documents\ChatGPT\project CV\tests\test_store.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\ProgramData\miniconda3\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_store.py:9: in <module>
+    from ragqa.vector_store import VectorStore
+src\ragqa\vector_store.py:9: in <module>
+    import faiss
+.venv\Lib\site-packages\faiss\__init__.py:149: in <module>
+    from .loader import *
+.venv\Lib\site-packages\faiss\loader.py:187: in <module>
+    from .swigfaiss import *  # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\faiss\swigfaiss.py:10: in <module>
+    from . import _swigfaiss
+E   ImportError: DLL load failed while importing _swigfaiss: A dynamic link library (DLL) initialization routine failed.
+=========================== short test summary info ===========================
+ERROR tests/test_integration.py
+ERROR tests/test_pipeline.py
+ERROR tests/test_store.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!
+3 errors in 9.03s

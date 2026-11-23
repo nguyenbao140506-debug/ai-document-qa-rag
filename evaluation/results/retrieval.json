@@ -1,0 +1,3086 @@
+{
+  "timestamp_utc": "2026-11-23T16:26:03.026699+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "generation_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "questions_sha256": "39f5c82365376b98a33e245169c4cebd9da36c84619f053fc91659588c369f29",
+  "packages": {
+    "torch": "2.12.0+cu126",
+    "sentence-transformers": "5.7.0",
+    "transformers": "4.57.6",
+    "faiss-cpu": "1.16.0",
+    "PyMuPDF": "1.28.2"
+  },
+  "documents": 6,
+  "pages": 18,
+  "answerable_questions": 36,
+  "negative_questions": 8,
+  "latency_scope": "Warm query embedding on CPU plus FAISS search; 3 repetitions per question; excludes model loading and indexing.",
+  "configurations": [
+    {
+      "chunking": {
+        "tokens": 128,
+        "overlap": 24
+      },
+      "chunks": 54,
+      "metrics": {
+        "recall@1": 0.8888888888888888,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "mrr@5": 0.9398148148148147,
+        "retrieval_p50_ms": 4.483250000021144,
+        "retrieval_p95_ms": 6.174319999990982,
+        "build_ms": 548.8608000000568
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "51069486c36b31f6fc8a5208338f63ba077d0cb3dde1e02649852234aaa808f6",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.6826061010360718
+            },
+            {
+              "chunk_id": "e79dbc7c396309998c00868f0a0f4300236d6eed3749814324e018719a023f8e",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5067276954650879
+            },
+            {
+              "chunk_id": "446837e6632c1e6bb09266be1634b60fbfd189bce1d5caf6aa6f90681134b7e3",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.4720292091369629
+            },
+            {
+              "chunk_id": "ac290d68137cd1413ad34672f4ae1b297b9686de6d2b57055322c25d9a97a605",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.4338902235031128
+            },
+            {
+              "chunk_id": "4adf2de9cb516a844c3d8db789faf8b523f6466b416f1b11162768a85c79550c",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.40593421459198
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "retrieved": [
+            {
+              "chunk_id": "51069486c36b31f6fc8a5208338f63ba077d0cb3dde1e02649852234aaa808f6",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.6547789573669434
+            },
+            {
+              "chunk_id": "446837e6632c1e6bb09266be1634b60fbfd189bce1d5caf6aa6f90681134b7e3",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.6038334965705872
+            },
+            {
+              "chunk_id": "ac290d68137cd1413ad34672f4ae1b297b9686de6d2b57055322c25d9a97a605",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5897082090377808
+            },
+            {
+              "chunk_id": "e79dbc7c396309998c00868f0a0f4300236d6eed3749814324e018719a023f8e",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5704145431518555
+            },
+            {
+              "chunk_id": "4adf2de9cb516a844c3d8db789faf8b523f6466b416f1b11162768a85c79550c",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.4700029492378235
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "446837e6632c1e6bb09266be1634b60fbfd189bce1d5caf6aa6f90681134b7e3",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.6359487771987915
+            },
+            {
+              "chunk_id": "3a46a567c951042250c120d7d26a1171bacebf5f85524d0a9a4ae8e3bff4d66c",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.4956243336200714
+            },
+            {
+              "chunk_id": "ac290d68137cd1413ad34672f4ae1b297b9686de6d2b57055322c25d9a97a605",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.4696582555770874
+            },
+            {
+              "chunk_id": "51069486c36b31f6fc8a5208338f63ba077d0cb3dde1e02649852234aaa808f6",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.44742894172668457
+            },
+            {
+              "chunk_id": "4adf2de9cb516a844c3d8db789faf8b523f6466b416f1b11162768a85c79550c",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.442485511302948
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "3a46a567c951042250c120d7d26a1171bacebf5f85524d0a9a4ae8e3bff4d66c",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.6774706244468689
+            },
+            {
+              "chunk_id": "446837e6632c1e6bb09266be1634b60fbfd189bce1d5caf6aa6f90681134b7e3",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5948448181152344
+            },
+            {
+              "chunk_id": "51069486c36b31f6fc8a5208338f63ba077d0cb3dde1e02649852234aaa808f6",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5463751554489136
+            },
+            {
+              "chunk_id": "e79dbc7c396309998c00868f0a0f4300236d6eed3749814324e018719a023f8e",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5319520235061646
+            },
+            {
+              "chunk_id": "ac290d68137cd1413ad34672f4ae1b297b9686de6d2b57055322c25d9a97a605",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.502370297908783
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "e79dbc7c396309998c00868f0a0f4300236d6eed3749814324e018719a023f8e",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.7386354207992554
+            },
+            {
+              "chunk_id": "51069486c36b31f6fc8a5208338f63ba077d0cb3dde1e02649852234aaa808f6",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5933789610862732
+            },
+            {
+              "chunk_id": "446837e6632c1e6bb09266be1634b60fbfd189bce1d5caf6aa6f90681134b7e3",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5376661419868469
+            },
+            {
+              "chunk_id": "ac290d68137cd1413ad34672f4ae1b297b9686de6d2b57055322c25d9a97a605",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5369930267333984
+            },
+            {
+              "chunk_id": "4adf2de9cb516a844c3d8db789faf8b523f6466b416f1b11162768a85c79550c",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5074052810668945
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "4adf2de9cb516a844c3d8db789faf8b523f6466b416f1b11162768a85c79550c",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.656402587890625
+            },
+            {
+              "chunk_id": "e79dbc7c396309998c00868f0a0f4300236d6eed3749814324e018719a023f8e",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5477695465087891
+            },
+            {
+              "chunk_id": "ac290d68137cd1413ad34672f4ae1b297b9686de6d2b57055322c25d9a97a605",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5455936193466187
+            },
+            {
+              "chunk_id": "51069486c36b31f6fc8a5208338f63ba077d0cb3dde1e02649852234aaa808f6",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5448707938194275
+            },
+            {
+              "chunk_id": "446837e6632c1e6bb09266be1634b60fbfd189bce1d5caf6aa6f90681134b7e3",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5120713710784912
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "9cda75f9b2e4529e330099b5dd8b765bd527de5c3ed77f1ecc6bb7bc8bc73c91",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.6791051626205444
+            },
+            {
+              "chunk_id": "daf26cdbc22ec0cda4af072ec98fa28c6a6f64b9086ac35f99091bf3212f2c7f",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5393383502960205
+            },
+            {
+              "chunk_id": "7b632bf91843306cb12ed3d094d245e291028cc89e135bc93cc6f1b840d4ede6",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.49169090390205383
+            },
+            {
+              "chunk_id": "5eab130abaee5ec1969a03f52a56c5eeafb15521fea2a7fc018a2153664f0622",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.46948546171188354
+            },
+            {
+              "chunk_id": "25c02f5fd478a766022472fa10dd739e50386b68abc4a31abcd048eee15817db",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.4422514736652374
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 0.5,
+          "retrieved": [
+            {
+              "chunk_id": "9cda75f9b2e4529e330099b5dd8b765bd527de5c3ed77f1ecc6bb7bc8bc73c91",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.625809907913208
+            },
+            {
+              "chunk_id": "5eab130abaee5ec1969a03f52a56c5eeafb15521fea2a7fc018a2153664f0622",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.5586119294166565
+            },
+            {
+              "chunk_id": "daf26cdbc22ec0cda4af072ec98fa28c6a6f64b9086ac35f99091bf3212f2c7f",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5249393582344055
+            },
+            {
+              "chunk_id": "25c02f5fd478a766022472fa10dd739e50386b68abc4a31abcd048eee15817db",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5115740895271301
+            },
+            {
+              "chunk_id": "7b632bf91843306cb12ed3d094d245e291028cc89e135bc93cc6f1b840d4ede6",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.496679425239563
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "7b632bf91843306cb12ed3d094d245e291028cc89e135bc93cc6f1b840d4ede6",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.5347881317138672
+            },
+            {
+              "chunk_id": "daf26cdbc22ec0cda4af072ec98fa28c6a6f64b9086ac35f99091bf3212f2c7f",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.31605595350265503
+            },
+            {
+              "chunk_id": "25c02f5fd478a766022472fa10dd739e50386b68abc4a31abcd048eee15817db",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.28693056106567383
+            },
+            {
+              "chunk_id": "2e006bfe10b65ee5d5fed4f4207bf34894e6cede2d6cd294528e29cfa71d496f",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.28039607405662537
+            },
+            {
+              "chunk_id": "9cda75f9b2e4529e330099b5dd8b765bd527de5c3ed77f1ecc6bb7bc8bc73c91",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.26484614610671997
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "2e006bfe10b65ee5d5fed4f4207bf34894e6cede2d6cd294528e29cfa71d496f",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.5219154953956604
+            },
+            {
+              "chunk_id": "7b632bf91843306cb12ed3d094d245e291028cc89e135bc93cc6f1b840d4ede6",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.4571183919906616
+            },
+            {
+              "chunk_id": "25c02f5fd478a766022472fa10dd739e50386b68abc4a31abcd048eee15817db",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.4232797920703888
+            },
+            {
+              "chunk_id": "5eab130abaee5ec1969a03f52a56c5eeafb15521fea2a7fc018a2153664f0622",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.41263967752456665
+            },
+            {
+              "chunk_id": "daf26cdbc22ec0cda4af072ec98fa28c6a6f64b9086ac35f99091bf3212f2c7f",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.4077913761138916
+            }
+          ]
+        },
+        {
+          "id": "q11",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "daf26cdbc22ec0cda4af072ec98fa28c6a6f64b9086ac35f99091bf3212f2c7f",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.6693289279937744
+            },
+            {
+              "chunk_id": "9cda75f9b2e4529e330099b5dd8b765bd527de5c3ed77f1ecc6bb7bc8bc73c91",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.531545877456665
+            },
+            {
+              "chunk_id": "25c02f5fd478a766022472fa10dd739e50386b68abc4a31abcd048eee15817db",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.47112926840782166
+            },
+            {
+              "chunk_id": "7b632bf91843306cb12ed3d094d245e291028cc89e135bc93cc6f1b840d4ede6",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.469531774520874
+            },
+            {
+              "chunk_id": "5eab130abaee5ec1969a03f52a56c5eeafb15521fea2a7fc018a2153664f0622",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.422544002532959
+            }
+          ]
+        },
+        {
+          "id": "q12",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "25c02f5fd478a766022472fa10dd739e50386b68abc4a31abcd048eee15817db",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.39329591393470764
+            },
+            {
+              "chunk_id": "7b632bf91843306cb12ed3d094d245e291028cc89e135bc93cc6f1b840d4ede6",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.3223876655101776
+            },
+            {
+              "chunk_id": "5eab130abaee5ec1969a03f52a56c5eeafb15521fea2a7fc018a2153664f0622",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.318149596452713
+            },
+            {
+              "chunk_id": "daf26cdbc22ec0cda4af072ec98fa28c6a6f64b9086ac35f99091bf3212f2c7f",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.31633496284484863
+            },
+            {
+              "chunk_id": "9cda75f9b2e4529e330099b5dd8b765bd527de5c3ed77f1ecc6bb7bc8bc73c91",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.2877914607524872
+            }
+          ]
+        },
+        {
+          "id": "q13",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "51c8d8daf951288c98f92e1d5293eb517ab03bfe7b9299a4fb49d32d2a16db4c",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.6638715267181396
+            },
+            {
+              "chunk_id": "e01f6f3f0aab7fb00df4385691f9b600add01d5f7b266013713f39e356097677",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.46317917108535767
+            },
+            {
+              "chunk_id": "be7de8904e5305f7fea1fa6a445917ea410e0d11415f2d9c1d30eb53e7c5f6f0",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.4620682895183563
+            },
+            {
+              "chunk_id": "8bb8aecbccb9f634a682e93757227fff2a4492e05eea6fe49debc832527ea014",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.438120573759079
+            },
+            {
+              "chunk_id": "bf2618e4ec696f798737d1698f6481ab0ba6e4a06b5edffbd0e28bff04694e2e",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.36379724740982056
+            }
+          ]
+        },
+        {
+          "id": "q14",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "be7de8904e5305f7fea1fa6a445917ea410e0d11415f2d9c1d30eb53e7c5f6f0",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.66937655210495
+            },
+            {
+              "chunk_id": "51c8d8daf951288c98f92e1d5293eb517ab03bfe7b9299a4fb49d32d2a16db4c",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.6160080432891846
+            },
+            {
+              "chunk_id": "8bb8aecbccb9f634a682e93757227fff2a4492e05eea6fe49debc832527ea014",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5480506420135498
+            },
+            {
+              "chunk_id": "e01f6f3f0aab7fb00df4385691f9b600add01d5f7b266013713f39e356097677",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5377501249313354
+            },
+            {
+              "chunk_id": "bf2618e4ec696f798737d1698f6481ab0ba6e4a06b5edffbd0e28bff04694e2e",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.4918205738067627
+            }
+          ]
+        },
+        {
+          "id": "q15",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "e01f6f3f0aab7fb00df4385691f9b600add01d5f7b266013713f39e356097677",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.6141104698181152
+            },
+            {
+              "chunk_id": "51c8d8daf951288c98f92e1d5293eb517ab03bfe7b9299a4fb49d32d2a16db4c",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5682106018066406
+            },
+            {
+              "chunk_id": "8bb8aecbccb9f634a682e93757227fff2a4492e05eea6fe49debc832527ea014",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5004230737686157
+            },
+            {
+              "chunk_id": "be7de8904e5305f7fea1fa6a445917ea410e0d11415f2d9c1d30eb53e7c5f6f0",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.4494820535182953
+            },
+            {
+              "chunk_id": "bf2618e4ec696f798737d1698f6481ab0ba6e4a06b5edffbd0e28bff04694e2e",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.4303849935531616
+            }
+          ]
+        },
+        {
+          "id": "q16",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "79492cd5b16902001ef66e895c41d6bdc5f8472169f84d59e006ed15bff76d11",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5507014393806458
+            },
+            {
+              "chunk_id": "e01f6f3f0aab7fb00df4385691f9b600add01d5f7b266013713f39e356097677",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.4457233250141144
+            },
+            {
+              "chunk_id": "51c8d8daf951288c98f92e1d5293eb517ab03bfe7b9299a4fb49d32d2a16db4c",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.4305378794670105
+            },
+            {
+              "chunk_id": "8bb8aecbccb9f634a682e93757227fff2a4492e05eea6fe49debc832527ea014",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.42848914861679077
+            },
+            {
+              "chunk_id": "bf2618e4ec696f798737d1698f6481ab0ba6e4a06b5edffbd0e28bff04694e2e",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.3972398340702057
+            }
+          ]
+        },
+        {
+          "id": "q17",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "8bb8aecbccb9f634a682e93757227fff2a4492e05eea6fe49debc832527ea014",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.6739205121994019
+            },
+            {
+              "chunk_id": "be7de8904e5305f7fea1fa6a445917ea410e0d11415f2d9c1d30eb53e7c5f6f0",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5448909997940063
+            },
+            {
+              "chunk_id": "e01f6f3f0aab7fb00df4385691f9b600add01d5f7b266013713f39e356097677",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5422348976135254
+            },
+            {
+              "chunk_id": "bf2618e4ec696f798737d1698f6481ab0ba6e4a06b5edffbd0e28bff04694e2e",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5393482446670532
+            },
+            {
+              "chunk_id": "51c8d8daf951288c98f92e1d5293eb517ab03bfe7b9299a4fb49d32d2a16db4c",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5163742899894714
+            }
+          ]
+        },
+        {
+          "id": "q18",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "bf2618e4ec696f798737d1698f6481ab0ba6e4a06b5edffbd0e28bff04694e2e",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.6267322301864624
+            },
+            {
+              "chunk_id": "51c8d8daf951288c98f92e1d5293eb517ab03bfe7b9299a4fb49d32d2a16db4c",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5609015226364136
+            },
+            {
+              "chunk_id": "8bb8aecbccb9f634a682e93757227fff2a4492e05eea6fe49debc832527ea014",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5547971725463867
+            },
+            {
+              "chunk_id": "e01f6f3f0aab7fb00df4385691f9b600add01d5f7b266013713f39e356097677",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5089703798294067
+            },
+            {
+              "chunk_id": "be7de8904e5305f7fea1fa6a445917ea410e0d11415f2d9c1d30eb53e7c5f6f0",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.46233153343200684
+            }
+          ]
+        },
+        {
+          "id": "q19",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "04ff88815bfc80c14c421da29d225fda84f4f82ed363968bee4f6129bd8eded6",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.7133011817932129
+            },
+            {
+              "chunk_id": "4985c00e32fbcd27e6133bf2d6d94a80927a222a074d12403c4c35c77c5d23a0",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.521734356880188
+            },
+            {
+              "chunk_id": "644a6c23f72d8310c7f46b775f2672a54f84aac1ab81d247adb1ef722dd00a0a",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.4797161817550659
+            },
+            {
+              "chunk_id": "608f9f5d069b04eb374d59bcdfa155e2273fe2661d293a3e3a64c5dca0e0859f",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.4609305262565613
+            },
+            {
+              "chunk_id": "24e25c5a05032494a335dc1f0bf4985d2500960508074edfd14eb5067d6d4141",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.3424471318721771
+            }
+          ]
+        },
+        {
+          "id": "q20",
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 0.5,
+          "retrieved": [
+            {
+              "chunk_id": "04ff88815bfc80c14c421da29d225fda84f4f82ed363968bee4f6129bd8eded6",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.5746381878852844
+            },
+            {
+              "chunk_id": "4985c00e32fbcd27e6133bf2d6d94a80927a222a074d12403c4c35c77c5d23a0",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.5641254186630249
+            },
+            {
+              "chunk_id": "608f9f5d069b04eb374d59bcdfa155e2273fe2661d293a3e3a64c5dca0e0859f",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.32881659269332886
+            },
+            {
+              "chunk_id": "644a6c23f72d8310c7f46b775f2672a54f84aac1ab81d247adb1ef722dd00a0a",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.3058030307292938
+            },
+            {
+              "chunk_id": "24e25c5a05032494a335dc1f0bf4985d2500960508074edfd14eb5067d6d4141",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.2408890426158905
+            }
+          ]
+        },
+        {
+          "id": "q21",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "644a6c23f72d8310c7f46b775f2672a54f84aac1ab81d247adb1ef722dd00a0a",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.7120558023452759
+            },
+            {
+              "chunk_id": "608f9f5d069b04eb374d59bcdfa155e2273fe2661d293a3e3a64c5dca0e0859f",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.4688974618911743
+            },
+            {
+              "chunk_id": "04ff88815bfc80c14c421da29d225fda84f4f82ed363968bee4f6129bd8eded6",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.452785462141037
+            },
+            {
+              "chunk_id": "24e25c5a05032494a335dc1f0bf4985d2500960508074edfd14eb5067d6d4141",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.395182341337204
+            },
+            {
+              "chunk_id": "bce0fa7d2364a08199ac7ddfed56196d4a1d0091891a6be59918ba3849a4c0a2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.35816365480422974
+            }
+          ]
+        },
+        {
+          "id": "q22",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "24e25c5a05032494a335dc1f0bf4985d2500960508074edfd14eb5067d6d4141",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.6494988203048706
+            },
+            {
+              "chunk_id": "bce0fa7d2364a08199ac7ddfed56196d4a1d0091891a6be59918ba3849a4c0a2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.5449715256690979
+            },
+            {
+              "chunk_id": "608f9f5d069b04eb374d59bcdfa155e2273fe2661d293a3e3a64c5dca0e0859f",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.5079681277275085
+            },
+            {
+              "chunk_id": "4985c00e32fbcd27e6133bf2d6d94a80927a222a074d12403c4c35c77c5d23a0",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.47238725423812866
+            },
+            {
+              "chunk_id": "04ff88815bfc80c14c421da29d225fda84f4f82ed363968bee4f6129bd8eded6",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.46782177686691284
+            }
+          ]
+        },
+        {
+          "id": "q23",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "608f9f5d069b04eb374d59bcdfa155e2273fe2661d293a3e3a64c5dca0e0859f",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.7010809779167175
+            },
+            {
+              "chunk_id": "644a6c23f72d8310c7f46b775f2672a54f84aac1ab81d247adb1ef722dd00a0a",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.6479853987693787
+            },
+            {
+              "chunk_id": "04ff88815bfc80c14c421da29d225fda84f4f82ed363968bee4f6129bd8eded6",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.551314115524292
+            },
+            {
+              "chunk_id": "bce0fa7d2364a08199ac7ddfed56196d4a1d0091891a6be59918ba3849a4c0a2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.44086891412734985
+            },
+            {
+              "chunk_id": "24e25c5a05032494a335dc1f0bf4985d2500960508074edfd14eb5067d6d4141",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.42069512605667114
+            }
+          ]
+        },
+        {
+          "id": "q24",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "bce0fa7d2364a08199ac7ddfed56196d4a1d0091891a6be59918ba3849a4c0a2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.5256868004798889
+            },
+            {
+              "chunk_id": "644a6c23f72d8310c7f46b775f2672a54f84aac1ab81d247adb1ef722dd00a0a",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.47459810972213745
+            },
+            {
+              "chunk_id": "608f9f5d069b04eb374d59bcdfa155e2273fe2661d293a3e3a64c5dca0e0859f",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.4384263753890991
+            },
+            {
+              "chunk_id": "04ff88815bfc80c14c421da29d225fda84f4f82ed363968bee4f6129bd8eded6",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.4017825722694397
+            },
+            {
+              "chunk_id": "24e25c5a05032494a335dc1f0bf4985d2500960508074edfd14eb5067d6d4141",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.3849092125892639
+            }
+          ]
+        },
+        {
+          "id": "q25",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "226f65426fc526ddb083d428ee6351c0dcd5dfe097a2ab93a03719c257ad12f6",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.6439568996429443
+            },
+            {
+              "chunk_id": "dc3c19aaac5589d70a2207ef5f35e99a1e638547e48560e07066c17d9dc078b9",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.5254532098770142
+            },
+            {
+              "chunk_id": "d28865aa455f3493028c498b914e8e73b2e247b37f5a54c47fcfa52199780a7f",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.5082229375839233
+            },
+            {
+              "chunk_id": "6ba6ba59e8b7b4726c099d5e2d8efc9dab8a50d50da00476720a3ec2eac63b13",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4037576913833618
+            },
+            {
+              "chunk_id": "7907e1e65836af386b02342b6ffbdbda57c325f690f84e87e5f8ed1bfc270943",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4002455174922943
+            }
+          ]
+        },
+        {
+          "id": "q26",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "7907e1e65836af386b02342b6ffbdbda57c325f690f84e87e5f8ed1bfc270943",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5586156845092773
+            },
+            {
+              "chunk_id": "226f65426fc526ddb083d428ee6351c0dcd5dfe097a2ab93a03719c257ad12f6",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4503132402896881
+            },
+            {
+              "chunk_id": "dc3c19aaac5589d70a2207ef5f35e99a1e638547e48560e07066c17d9dc078b9",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4294360876083374
+            },
+            {
+              "chunk_id": "d28865aa455f3493028c498b914e8e73b2e247b37f5a54c47fcfa52199780a7f",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.3834160566329956
+            },
+            {
+              "chunk_id": "31b40eff1ddb6416ee6eca4fb35f3cb1def2bb1be20f2ab443b120f6b64ad345",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.3454004228115082
+            }
+          ]
+        },
+        {
+          "id": "q27",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "dc3c19aaac5589d70a2207ef5f35e99a1e638547e48560e07066c17d9dc078b9",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.6354802846908569
+            },
+            {
+              "chunk_id": "226f65426fc526ddb083d428ee6351c0dcd5dfe097a2ab93a03719c257ad12f6",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.6085609197616577
+            },
+            {
+              "chunk_id": "d28865aa455f3493028c498b914e8e73b2e247b37f5a54c47fcfa52199780a7f",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.549502968788147
+            },
+            {
+              "chunk_id": "6ba6ba59e8b7b4726c099d5e2d8efc9dab8a50d50da00476720a3ec2eac63b13",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4898644685745239
+            },
+            {
+              "chunk_id": "7907e1e65836af386b02342b6ffbdbda57c325f690f84e87e5f8ed1bfc270943",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4430604875087738
+            }
+          ]
+        },
+        {
+          "id": "q28",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "6ba6ba59e8b7b4726c099d5e2d8efc9dab8a50d50da00476720a3ec2eac63b13",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.6113541126251221
+            },
+            {
+              "chunk_id": "7907e1e65836af386b02342b6ffbdbda57c325f690f84e87e5f8ed1bfc270943",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.458976149559021
+            },
+            {
+              "chunk_id": "d28865aa455f3493028c498b914e8e73b2e247b37f5a54c47fcfa52199780a7f",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.44119077920913696
+            },
+            {
+              "chunk_id": "dc3c19aaac5589d70a2207ef5f35e99a1e638547e48560e07066c17d9dc078b9",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4251079559326172
+            },
+            {
+              "chunk_id": "226f65426fc526ddb083d428ee6351c0dcd5dfe097a2ab93a03719c257ad12f6",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.3962988257408142
+            }
+          ]
+        },
+        {
+          "id": "q29",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "d28865aa455f3493028c498b914e8e73b2e247b37f5a54c47fcfa52199780a7f",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.6157408952713013
+            },
+            {
+              "chunk_id": "dc3c19aaac5589d70a2207ef5f35e99a1e638547e48560e07066c17d9dc078b9",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4650912284851074
+            },
+            {
+              "chunk_id": "6ba6ba59e8b7b4726c099d5e2d8efc9dab8a50d50da00476720a3ec2eac63b13",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.45090198516845703
+            },
+            {
+              "chunk_id": "226f65426fc526ddb083d428ee6351c0dcd5dfe097a2ab93a03719c257ad12f6",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4495191276073456
+            },
+            {
+              "chunk_id": "7907e1e65836af386b02342b6ffbdbda57c325f690f84e87e5f8ed1bfc270943",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4484317898750305
+            }
+          ]
+        },
+        {
+          "id": "q30",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "31b40eff1ddb6416ee6eca4fb35f3cb1def2bb1be20f2ab443b120f6b64ad345",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.5776883959770203
+            },
+            {
+              "chunk_id": "226f65426fc526ddb083d428ee6351c0dcd5dfe097a2ab93a03719c257ad12f6",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5064846277236938
+            },
+            {
+              "chunk_id": "7907e1e65836af386b02342b6ffbdbda57c325f690f84e87e5f8ed1bfc270943",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5009603500366211
+            },
+            {
+              "chunk_id": "d28865aa455f3493028c498b914e8e73b2e247b37f5a54c47fcfa52199780a7f",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.4999963343143463
+            },
+            {
+              "chunk_id": "dc3c19aaac5589d70a2207ef5f35e99a1e638547e48560e07066c17d9dc078b9",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4862934350967407
+            }
+          ]
+        },
+        {
+          "id": "q31",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "45d9ee0a9c5490a247ff967287b37ed81322c3cac37bf54e4f4c69bb90282117",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.6154679656028748
+            },
+            {
+              "chunk_id": "88a91d3a5e25877fa2b382aad96b3346c733c7bd49ba8b70f2fac49eab929124",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5169106721878052
+            },
+            {
+              "chunk_id": "bb657f7bbb48e3bc2ae4e8f16575a03eca39a4ae806f66d11d2473bda592342f",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.4968399107456207
+            },
+            {
+              "chunk_id": "9eb3e460f339a3d46087c85140ba992a70da778388100e1e4617077cc36db3d0",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.4823567867279053
+            },
+            {
+              "chunk_id": "c254b4fa9223dd0127104b3a8a4eb797c8ee3c548abaf1d1353cb1dbbd64dc28",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.3667026162147522
+            }
+          ]
+        },
+        {
+          "id": "q32",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "bb657f7bbb48e3bc2ae4e8f16575a03eca39a4ae806f66d11d2473bda592342f",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.6552752256393433
+            },
+            {
+              "chunk_id": "45d9ee0a9c5490a247ff967287b37ed81322c3cac37bf54e4f4c69bb90282117",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.616718053817749
+            },
+            {
+              "chunk_id": "88a91d3a5e25877fa2b382aad96b3346c733c7bd49ba8b70f2fac49eab929124",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5728332996368408
+            },
+            {
+              "chunk_id": "9eb3e460f339a3d46087c85140ba992a70da778388100e1e4617077cc36db3d0",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5249574184417725
+            },
+            {
+              "chunk_id": "c254b4fa9223dd0127104b3a8a4eb797c8ee3c548abaf1d1353cb1dbbd64dc28",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.4740803837776184
+            }
+          ]
+        },
+        {
+          "id": "q33",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "9eb3e460f339a3d46087c85140ba992a70da778388100e1e4617077cc36db3d0",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5951170921325684
+            },
+            {
+              "chunk_id": "bb657f7bbb48e3bc2ae4e8f16575a03eca39a4ae806f66d11d2473bda592342f",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.4671313166618347
+            },
+            {
+              "chunk_id": "45d9ee0a9c5490a247ff967287b37ed81322c3cac37bf54e4f4c69bb90282117",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.455732136964798
+            },
+            {
+              "chunk_id": "88a91d3a5e25877fa2b382aad96b3346c733c7bd49ba8b70f2fac49eab929124",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.44371747970581055
+            },
+            {
+              "chunk_id": "c254b4fa9223dd0127104b3a8a4eb797c8ee3c548abaf1d1353cb1dbbd64dc28",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.4057500958442688
+            }
+          ]
+        },
+        {
+          "id": "q34",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "910e7002c730f28c5d633bfbdb47fa7ce0429ad5b0f76fcc6cc6c5228af824cc",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5924428105354309
+            },
+            {
+              "chunk_id": "88a91d3a5e25877fa2b382aad96b3346c733c7bd49ba8b70f2fac49eab929124",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5896632075309753
+            },
+            {
+              "chunk_id": "bb657f7bbb48e3bc2ae4e8f16575a03eca39a4ae806f66d11d2473bda592342f",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5797832608222961
+            },
+            {
+              "chunk_id": "45d9ee0a9c5490a247ff967287b37ed81322c3cac37bf54e4f4c69bb90282117",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5748583078384399
+            },
+            {
+              "chunk_id": "c254b4fa9223dd0127104b3a8a4eb797c8ee3c548abaf1d1353cb1dbbd64dc28",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5528345108032227
+            }
+          ]
+        },
+        {
+          "id": "q35",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "88a91d3a5e25877fa2b382aad96b3346c733c7bd49ba8b70f2fac49eab929124",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5665884613990784
+            },
+            {
+              "chunk_id": "45d9ee0a9c5490a247ff967287b37ed81322c3cac37bf54e4f4c69bb90282117",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5240128040313721
+            },
+            {
+              "chunk_id": "bb657f7bbb48e3bc2ae4e8f16575a03eca39a4ae806f66d11d2473bda592342f",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.4933309853076935
+            },
+            {
+              "chunk_id": "9eb3e460f339a3d46087c85140ba992a70da778388100e1e4617077cc36db3d0",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.4524025321006775
+            },
+            {
+              "chunk_id": "c254b4fa9223dd0127104b3a8a4eb797c8ee3c548abaf1d1353cb1dbbd64dc28",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.39035850763320923
+            }
+          ]
+        },
+        {
+          "id": "q36",
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 0.5,
+          "retrieved": [
+            {
+              "chunk_id": "88a91d3a5e25877fa2b382aad96b3346c733c7bd49ba8b70f2fac49eab929124",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5425608158111572
+            },
+            {
+              "chunk_id": "c254b4fa9223dd0127104b3a8a4eb797c8ee3c548abaf1d1353cb1dbbd64dc28",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5364301204681396
+            },
+            {
+              "chunk_id": "9eb3e460f339a3d46087c85140ba992a70da778388100e1e4617077cc36db3d0",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5126901865005493
+            },
+            {
+              "chunk_id": "45d9ee0a9c5490a247ff967287b37ed81322c3cac37bf54e4f4c69bb90282117",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.512412428855896
+            },
+            {
+              "chunk_id": "bb657f7bbb48e3bc2ae4e8f16575a03eca39a4ae806f66d11d2473bda592342f",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5010566711425781
+            }
+          ]
+        }
+      ],
+      "latency_samples_ms": [
+        5.03370000024006,
+        4.697500000020227,
+        5.468699999710225,
+        4.8361999997723615,
+        5.154400000265014,
+        5.295999999816559,
+        4.634299999906943,
+        4.490700000133074,
+        5.5372000001625565,
+        4.789599999639904,
+        4.063400000177353,
+        4.210699999930512,
+        4.802700000254845,
+        5.120699999679346,
+        4.199200000130077,
+        5.024799999773677,
+        4.545900000266556,
+        5.0243000000591564,
+        4.341199999998935,
+        4.080799999883311,
+        5.136700000093697,
+        4.717299999811075,
+        4.453300000022864,
+        4.434500000115804,
+        5.5089000002226385,
+        4.120200000215846,
+        4.337500000019645,
+        4.455700000107754,
+        5.771399999957794,
+        4.143699999985984,
+        4.687099999955535,
+        4.649400000289461,
+        4.340999999840278,
+        4.54489999992802,
+        4.295600000205013,
+        5.231900000126188,
+        4.716400000233989,
+        4.433899999639834,
+        4.330700000082288,
+        4.387899999983347,
+        4.453500000181521,
+        4.219299999931536,
+        4.898300000149902,
+        4.152199999680306,
+        4.007500000170694,
+        3.9126000001488137,
+        4.055400000197551,
+        3.9552999996885774,
+        3.9306000003307418,
+        3.9326000000983186,
+        3.9593999999851803,
+        4.4757999999092135,
+        4.184000000350352,
+        4.232700000102341,
+        4.0494999998372805,
+        4.080399999565998,
+        3.9527000003545254,
+        4.347100000359205,
+        4.387999999835301,
+        4.195700000309444,
+        4.1893000002346525,
+        4.253600000083679,
+        4.536100000223087,
+        4.713499999979831,
+        5.310300000019197,
+        5.7004000000233646,
+        4.687200000262237,
+        4.266399999778514,
+        4.213400000026013,
+        5.3716000002168585,
+        4.256199999872479,
+        4.518700000062381,
+        4.131800000322983,
+        4.213700000036624,
+        4.543099999864353,
+        4.464699999971344,
+        4.655699999602803,
+        4.163000000062311,
+        4.368699999758974,
+        4.086800000095536,
+        4.132800000206771,
+        4.181300000254851,
+        4.532599999947706,
+        4.126700000142591,
+        4.553100000066479,
+        5.349699999896984,
+        4.020099999706872,
+        13.998999999785156,
+        4.60190000012517,
+        4.691800000273361,
+        5.120199999964825,
+        6.283100000018749,
+        6.969699999899603,
+        6.762199999684526,
+        4.958500000157073,
+        4.642100000182836,
+        5.972299999939423,
+        4.601699999966513,
+        5.235699999957433,
+        7.092800000009447,
+        4.716199999620585,
+        5.41350000003149,
+        6.6752000002452405,
+        4.500799999732408,
+        4.394799999772658,
+        4.4018999997206265,
+        4.339499999787222,
+        4.344400000263704
+      ]
+    },
+    {
+      "chunking": {
+        "tokens": 224,
+        "overlap": 48
+      },
+      "chunks": 36,
+      "metrics": {
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "mrr@5": 1.0,
+        "retrieval_p50_ms": 4.430100000035964,
+        "retrieval_p95_ms": 5.430939999996553,
+        "build_ms": 553.4741000001304
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "2bcc1520b2d5f7c3e0218565587145029d77a9f94c33db3d97044b2331d1d166",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.6606850624084473
+            },
+            {
+              "chunk_id": "fb7486d40a26d29745205977cb452ff9b85b65d7e3ffec932add7a5e41b13cfe",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5357920527458191
+            },
+            {
+              "chunk_id": "8f17c08cb3e45f4817a220916bb1dfab445e114fe688c292238cc515f9044e74",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5236663818359375
+            },
+            {
+              "chunk_id": "259f9db817bb41aaa7ff7ff48f5ba748992f27563a16b00c4136a641dd6e4b63",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5136091709136963
+            },
+            {
+              "chunk_id": "a09f74f1691976d2f559a4b2a46d66e5c3585fc40cfd805ef8472c1152586736",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5010491013526917
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "2bcc1520b2d5f7c3e0218565587145029d77a9f94c33db3d97044b2331d1d166",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.6362242102622986
+            },
+            {
+              "chunk_id": "a09f74f1691976d2f559a4b2a46d66e5c3585fc40cfd805ef8472c1152586736",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5935930013656616
+            },
+            {
+              "chunk_id": "fb7486d40a26d29745205977cb452ff9b85b65d7e3ffec932add7a5e41b13cfe",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5407800078392029
+            },
+            {
+              "chunk_id": "8f17c08cb3e45f4817a220916bb1dfab445e114fe688c292238cc515f9044e74",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5292652249336243
+            },
+            {
+              "chunk_id": "53358a4a3974a6b704736338bf01bb6ccc50e6336e3a94beaba7e41387fcdb27",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.4992193877696991
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "fb7486d40a26d29745205977cb452ff9b85b65d7e3ffec932add7a5e41b13cfe",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.6025741100311279
+            },
+            {
+              "chunk_id": "259f9db817bb41aaa7ff7ff48f5ba748992f27563a16b00c4136a641dd6e4b63",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.48010265827178955
+            },
+            {
+              "chunk_id": "8f17c08cb3e45f4817a220916bb1dfab445e114fe688c292238cc515f9044e74",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.44542592763900757
+            },
+            {
+              "chunk_id": "2bcc1520b2d5f7c3e0218565587145029d77a9f94c33db3d97044b2331d1d166",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.43558603525161743
+            },
+            {
+              "chunk_id": "a09f74f1691976d2f559a4b2a46d66e5c3585fc40cfd805ef8472c1152586736",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.4138072431087494
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "259f9db817bb41aaa7ff7ff48f5ba748992f27563a16b00c4136a641dd6e4b63",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.7618228197097778
+            },
+            {
+              "chunk_id": "fb7486d40a26d29745205977cb452ff9b85b65d7e3ffec932add7a5e41b13cfe",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.7190895080566406
+            },
+            {
+              "chunk_id": "2bcc1520b2d5f7c3e0218565587145029d77a9f94c33db3d97044b2331d1d166",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5672825574874878
+            },
+            {
+              "chunk_id": "8f17c08cb3e45f4817a220916bb1dfab445e114fe688c292238cc515f9044e74",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5617194771766663
+            },
+            {
+              "chunk_id": "53358a4a3974a6b704736338bf01bb6ccc50e6336e3a94beaba7e41387fcdb27",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.5143673419952393
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "8f17c08cb3e45f4817a220916bb1dfab445e114fe688c292238cc515f9044e74",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.6795071959495544
+            },
+            {
+              "chunk_id": "2bcc1520b2d5f7c3e0218565587145029d77a9f94c33db3d97044b2331d1d166",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5888065695762634
+            },
+            {
+              "chunk_id": "fb7486d40a26d29745205977cb452ff9b85b65d7e3ffec932add7a5e41b13cfe",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5735734701156616
+            },
+            {
+              "chunk_id": "a09f74f1691976d2f559a4b2a46d66e5c3585fc40cfd805ef8472c1152586736",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5434979200363159
+            },
+            {
+              "chunk_id": "259f9db817bb41aaa7ff7ff48f5ba748992f27563a16b00c4136a641dd6e4b63",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.5228552222251892
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "53358a4a3974a6b704736338bf01bb6ccc50e6336e3a94beaba7e41387fcdb27",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.7143312692642212
+            },
+            {
+              "chunk_id": "a09f74f1691976d2f559a4b2a46d66e5c3585fc40cfd805ef8472c1152586736",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.607843816280365
+            },
+            {
+              "chunk_id": "8f17c08cb3e45f4817a220916bb1dfab445e114fe688c292238cc515f9044e74",
+              "filename": "cedar-research.pdf",
+              "page": 3,
+              "score": 0.6034507155418396
+            },
+            {
+              "chunk_id": "2bcc1520b2d5f7c3e0218565587145029d77a9f94c33db3d97044b2331d1d166",
+              "filename": "cedar-research.pdf",
+              "page": 1,
+              "score": 0.5282322764396667
+            },
+            {
+              "chunk_id": "fb7486d40a26d29745205977cb452ff9b85b65d7e3ffec932add7a5e41b13cfe",
+              "filename": "cedar-research.pdf",
+              "page": 2,
+              "score": 0.48726242780685425
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "ce376bcd8f1afb44f95098ef55949bc0c8a33b628058f885f8e1b6dd8d175d98",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.6333997249603271
+            },
+            {
+              "chunk_id": "ae5e489fd7f60a0f0ae241d35e9f91d8d40d75d1f2cf117a9a84837147be7da5",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.6152123212814331
+            },
+            {
+              "chunk_id": "b330cb8cc6a8b8ffc16e5ae7927a65e0f93c47a1847549942953ee59808c6e56",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5227872133255005
+            },
+            {
+              "chunk_id": "d3aa689e610eee193c6326ecb42d67059f0861fbe8e8caeb6629d99302cc1710",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.5088386535644531
+            },
+            {
+              "chunk_id": "c395f013e5a3ea809edb04af344588e672bfff79156ff27eef10dd2a1821fffc",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5015382766723633
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "ae5e489fd7f60a0f0ae241d35e9f91d8d40d75d1f2cf117a9a84837147be7da5",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.6998364925384521
+            },
+            {
+              "chunk_id": "ce376bcd8f1afb44f95098ef55949bc0c8a33b628058f885f8e1b6dd8d175d98",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.6396645903587341
+            },
+            {
+              "chunk_id": "c395f013e5a3ea809edb04af344588e672bfff79156ff27eef10dd2a1821fffc",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5476121306419373
+            },
+            {
+              "chunk_id": "b330cb8cc6a8b8ffc16e5ae7927a65e0f93c47a1847549942953ee59808c6e56",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.5406376123428345
+            },
+            {
+              "chunk_id": "d3aa689e610eee193c6326ecb42d67059f0861fbe8e8caeb6629d99302cc1710",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.5037407875061035
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "d3aa689e610eee193c6326ecb42d67059f0861fbe8e8caeb6629d99302cc1710",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.4599725008010864
+            },
+            {
+              "chunk_id": "29cea8ce918f791ebf3337192fab644ffe7e1e3b671dacecc19d887dbcae060f",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.3914356529712677
+            },
+            {
+              "chunk_id": "c395f013e5a3ea809edb04af344588e672bfff79156ff27eef10dd2a1821fffc",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.34663456678390503
+            },
+            {
+              "chunk_id": "ae5e489fd7f60a0f0ae241d35e9f91d8d40d75d1f2cf117a9a84837147be7da5",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.3157922923564911
+            },
+            {
+              "chunk_id": "b330cb8cc6a8b8ffc16e5ae7927a65e0f93c47a1847549942953ee59808c6e56",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.30220675468444824
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "29cea8ce918f791ebf3337192fab644ffe7e1e3b671dacecc19d887dbcae060f",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.5663820505142212
+            },
+            {
+              "chunk_id": "d3aa689e610eee193c6326ecb42d67059f0861fbe8e8caeb6629d99302cc1710",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.5192005634307861
+            },
+            {
+              "chunk_id": "ae5e489fd7f60a0f0ae241d35e9f91d8d40d75d1f2cf117a9a84837147be7da5",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.4669288098812103
+            },
+            {
+              "chunk_id": "c395f013e5a3ea809edb04af344588e672bfff79156ff27eef10dd2a1821fffc",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.45031583309173584
+            },
+            {
+              "chunk_id": "b330cb8cc6a8b8ffc16e5ae7927a65e0f93c47a1847549942953ee59808c6e56",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.42382627725601196
+            }
+          ]
+        },
+        {
+          "id": "q11",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "b330cb8cc6a8b8ffc16e5ae7927a65e0f93c47a1847549942953ee59808c6e56",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.6162673234939575
+            },
+            {
+              "chunk_id": "ce376bcd8f1afb44f95098ef55949bc0c8a33b628058f885f8e1b6dd8d175d98",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.5175447463989258
+            },
+            {
+              "chunk_id": "c395f013e5a3ea809edb04af344588e672bfff79156ff27eef10dd2a1821fffc",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.49427855014801025
+            },
+            {
+              "chunk_id": "d3aa689e610eee193c6326ecb42d67059f0861fbe8e8caeb6629d99302cc1710",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.48185089230537415
+            },
+            {
+              "chunk_id": "ae5e489fd7f60a0f0ae241d35e9f91d8d40d75d1f2cf117a9a84837147be7da5",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.4665665030479431
+            }
+          ]
+        },
+        {
+          "id": "q12",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "c395f013e5a3ea809edb04af344588e672bfff79156ff27eef10dd2a1821fffc",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.3970436751842499
+            },
+            {
+              "chunk_id": "b330cb8cc6a8b8ffc16e5ae7927a65e0f93c47a1847549942953ee59808c6e56",
+              "filename": "harbor-observatory.pdf",
+              "page": 3,
+              "score": 0.34090477228164673
+            },
+            {
+              "chunk_id": "ae5e489fd7f60a0f0ae241d35e9f91d8d40d75d1f2cf117a9a84837147be7da5",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.3273770213127136
+            },
+            {
+              "chunk_id": "d3aa689e610eee193c6326ecb42d67059f0861fbe8e8caeb6629d99302cc1710",
+              "filename": "harbor-observatory.pdf",
+              "page": 2,
+              "score": 0.3026770353317261
+            },
+            {
+              "chunk_id": "ce376bcd8f1afb44f95098ef55949bc0c8a33b628058f885f8e1b6dd8d175d98",
+              "filename": "harbor-observatory.pdf",
+              "page": 1,
+              "score": 0.29219281673431396
+            }
+          ]
+        },
+        {
+          "id": "q13",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "02b1a84bb89801f4716b41052dfc51ced005c4a43c406340ffb92cc83f603467",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5953536033630371
+            },
+            {
+              "chunk_id": "cf27bc0d4c138941d98fde78f60eae856166f0add9ca5249c36b3cfaecd38def",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5470430850982666
+            },
+            {
+              "chunk_id": "2e9e27b3cb56cba6ee0e6708c8201b70e28d440b5935c29ff80fd1668b6c7004",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.44257569313049316
+            },
+            {
+              "chunk_id": "f6d8d39014f94cfb438fac3fa6bc6c9d8b480fcdf4ac6fbbd7beb409b7c21204",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.4335128664970398
+            },
+            {
+              "chunk_id": "936d4d6b6ccb9fbe335c1a6acdc44529951fcc3c353c19be5b8349d328e0e4e5",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.42169398069381714
+            }
+          ]
+        },
+        {
+          "id": "q14",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "cf27bc0d4c138941d98fde78f60eae856166f0add9ca5249c36b3cfaecd38def",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.7277264595031738
+            },
+            {
+              "chunk_id": "02b1a84bb89801f4716b41052dfc51ced005c4a43c406340ffb92cc83f603467",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.7033785581588745
+            },
+            {
+              "chunk_id": "2e9e27b3cb56cba6ee0e6708c8201b70e28d440b5935c29ff80fd1668b6c7004",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5776352882385254
+            },
+            {
+              "chunk_id": "f6d8d39014f94cfb438fac3fa6bc6c9d8b480fcdf4ac6fbbd7beb409b7c21204",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5084174871444702
+            },
+            {
+              "chunk_id": "936d4d6b6ccb9fbe335c1a6acdc44529951fcc3c353c19be5b8349d328e0e4e5",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5053867101669312
+            }
+          ]
+        },
+        {
+          "id": "q15",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "f6d8d39014f94cfb438fac3fa6bc6c9d8b480fcdf4ac6fbbd7beb409b7c21204",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5445032715797424
+            },
+            {
+              "chunk_id": "02b1a84bb89801f4716b41052dfc51ced005c4a43c406340ffb92cc83f603467",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5302649736404419
+            },
+            {
+              "chunk_id": "cf27bc0d4c138941d98fde78f60eae856166f0add9ca5249c36b3cfaecd38def",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5095549821853638
+            },
+            {
+              "chunk_id": "2e9e27b3cb56cba6ee0e6708c8201b70e28d440b5935c29ff80fd1668b6c7004",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.502777636051178
+            },
+            {
+              "chunk_id": "936d4d6b6ccb9fbe335c1a6acdc44529951fcc3c353c19be5b8349d328e0e4e5",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.48539915680885315
+            }
+          ]
+        },
+        {
+          "id": "q16",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "075b629ded58459a7e2331f04fbbcfec05069e93045d2b7114de30bf65afc10e",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5737422108650208
+            },
+            {
+              "chunk_id": "f6d8d39014f94cfb438fac3fa6bc6c9d8b480fcdf4ac6fbbd7beb409b7c21204",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.547010064125061
+            },
+            {
+              "chunk_id": "2e9e27b3cb56cba6ee0e6708c8201b70e28d440b5935c29ff80fd1668b6c7004",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.433468222618103
+            },
+            {
+              "chunk_id": "02b1a84bb89801f4716b41052dfc51ced005c4a43c406340ffb92cc83f603467",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.41403380036354065
+            },
+            {
+              "chunk_id": "cf27bc0d4c138941d98fde78f60eae856166f0add9ca5249c36b3cfaecd38def",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.3908420205116272
+            }
+          ]
+        },
+        {
+          "id": "q17",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "2e9e27b3cb56cba6ee0e6708c8201b70e28d440b5935c29ff80fd1668b6c7004",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.6507978439331055
+            },
+            {
+              "chunk_id": "f6d8d39014f94cfb438fac3fa6bc6c9d8b480fcdf4ac6fbbd7beb409b7c21204",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.5518732070922852
+            },
+            {
+              "chunk_id": "02b1a84bb89801f4716b41052dfc51ced005c4a43c406340ffb92cc83f603467",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5480708479881287
+            },
+            {
+              "chunk_id": "936d4d6b6ccb9fbe335c1a6acdc44529951fcc3c353c19be5b8349d328e0e4e5",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.5221066474914551
+            },
+            {
+              "chunk_id": "cf27bc0d4c138941d98fde78f60eae856166f0add9ca5249c36b3cfaecd38def",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5213608145713806
+            }
+          ]
+        },
+        {
+          "id": "q18",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "936d4d6b6ccb9fbe335c1a6acdc44529951fcc3c353c19be5b8349d328e0e4e5",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.7199585437774658
+            },
+            {
+              "chunk_id": "2e9e27b3cb56cba6ee0e6708c8201b70e28d440b5935c29ff80fd1668b6c7004",
+              "filename": "willow-garden.pdf",
+              "page": 3,
+              "score": 0.6601847410202026
+            },
+            {
+              "chunk_id": "02b1a84bb89801f4716b41052dfc51ced005c4a43c406340ffb92cc83f603467",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5722353458404541
+            },
+            {
+              "chunk_id": "cf27bc0d4c138941d98fde78f60eae856166f0add9ca5249c36b3cfaecd38def",
+              "filename": "willow-garden.pdf",
+              "page": 1,
+              "score": 0.5610593557357788
+            },
+            {
+              "chunk_id": "f6d8d39014f94cfb438fac3fa6bc6c9d8b480fcdf4ac6fbbd7beb409b7c21204",
+              "filename": "willow-garden.pdf",
+              "page": 2,
+              "score": 0.49546369910240173
+            }
+          ]
+        },
+        {
+          "id": "q19",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "c8d0cdc130ee69b2f09adcb1513878b23c3e9c6898c1da3986427d1bd8c1f10c",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.6963299512863159
+            },
+            {
+              "chunk_id": "8cc1289ef30ac1c14f6e36af91fc029a2953cc8270c6c0df88f64524f036e10b",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.5016340017318726
+            },
+            {
+              "chunk_id": "0e02967b0d50acb991cc1edbc147a6dd29440d2a42a8fa5b711bc9e0a71e9b9b",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.46353378891944885
+            },
+            {
+              "chunk_id": "2e66d877784a88ebf0fe11f9d62c68de91abbf69e26ed00fb0d4c494538668c7",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.4378679394721985
+            },
+            {
+              "chunk_id": "0cbe9286907be410b5ab10af6dea2264d0fbf59edd75c07cd881353324ed27d2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.35404497385025024
+            }
+          ]
+        },
+        {
+          "id": "q20",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "c8d0cdc130ee69b2f09adcb1513878b23c3e9c6898c1da3986427d1bd8c1f10c",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.632559597492218
+            },
+            {
+              "chunk_id": "8cc1289ef30ac1c14f6e36af91fc029a2953cc8270c6c0df88f64524f036e10b",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.628596842288971
+            },
+            {
+              "chunk_id": "0cbe9286907be410b5ab10af6dea2264d0fbf59edd75c07cd881353324ed27d2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.2961537539958954
+            },
+            {
+              "chunk_id": "2e66d877784a88ebf0fe11f9d62c68de91abbf69e26ed00fb0d4c494538668c7",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.29128968715667725
+            },
+            {
+              "chunk_id": "0e02967b0d50acb991cc1edbc147a6dd29440d2a42a8fa5b711bc9e0a71e9b9b",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.282336950302124
+            }
+          ]
+        },
+        {
+          "id": "q21",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "0e02967b0d50acb991cc1edbc147a6dd29440d2a42a8fa5b711bc9e0a71e9b9b",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.5894593000411987
+            },
+            {
+              "chunk_id": "2e66d877784a88ebf0fe11f9d62c68de91abbf69e26ed00fb0d4c494538668c7",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.4330291152000427
+            },
+            {
+              "chunk_id": "0cbe9286907be410b5ab10af6dea2264d0fbf59edd75c07cd881353324ed27d2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.3676972985267639
+            },
+            {
+              "chunk_id": "c8d0cdc130ee69b2f09adcb1513878b23c3e9c6898c1da3986427d1bd8c1f10c",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.35858213901519775
+            },
+            {
+              "chunk_id": "3e6d65b70329374365c60ded394c34ec1ed3acc6438bf61da6591e11505ed396",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.25624120235443115
+            }
+          ]
+        },
+        {
+          "id": "q22",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "0e02967b0d50acb991cc1edbc147a6dd29440d2a42a8fa5b711bc9e0a71e9b9b",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.5923536419868469
+            },
+            {
+              "chunk_id": "3e6d65b70329374365c60ded394c34ec1ed3acc6438bf61da6591e11505ed396",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.5910815596580505
+            },
+            {
+              "chunk_id": "2e66d877784a88ebf0fe11f9d62c68de91abbf69e26ed00fb0d4c494538668c7",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.5411637425422668
+            },
+            {
+              "chunk_id": "0cbe9286907be410b5ab10af6dea2264d0fbf59edd75c07cd881353324ed27d2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.5191462635993958
+            },
+            {
+              "chunk_id": "c8d0cdc130ee69b2f09adcb1513878b23c3e9c6898c1da3986427d1bd8c1f10c",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.47668513655662537
+            }
+          ]
+        },
+        {
+          "id": "q23",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "2e66d877784a88ebf0fe11f9d62c68de91abbf69e26ed00fb0d4c494538668c7",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.6559831500053406
+            },
+            {
+              "chunk_id": "0e02967b0d50acb991cc1edbc147a6dd29440d2a42a8fa5b711bc9e0a71e9b9b",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.6068430542945862
+            },
+            {
+              "chunk_id": "c8d0cdc130ee69b2f09adcb1513878b23c3e9c6898c1da3986427d1bd8c1f10c",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.4887326955795288
+            },
+            {
+              "chunk_id": "0cbe9286907be410b5ab10af6dea2264d0fbf59edd75c07cd881353324ed27d2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.4876633584499359
+            },
+            {
+              "chunk_id": "3e6d65b70329374365c60ded394c34ec1ed3acc6438bf61da6591e11505ed396",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.3430538773536682
+            }
+          ]
+        },
+        {
+          "id": "q24",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "0cbe9286907be410b5ab10af6dea2264d0fbf59edd75c07cd881353324ed27d2",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.6533653736114502
+            },
+            {
+              "chunk_id": "2e66d877784a88ebf0fe11f9d62c68de91abbf69e26ed00fb0d4c494538668c7",
+              "filename": "atlas-robotics.pdf",
+              "page": 3,
+              "score": 0.517061710357666
+            },
+            {
+              "chunk_id": "0e02967b0d50acb991cc1edbc147a6dd29440d2a42a8fa5b711bc9e0a71e9b9b",
+              "filename": "atlas-robotics.pdf",
+              "page": 2,
+              "score": 0.4235442280769348
+            },
+            {
+              "chunk_id": "c8d0cdc130ee69b2f09adcb1513878b23c3e9c6898c1da3986427d1bd8c1f10c",
+              "filename": "atlas-robotics.pdf",
+              "page": 1,
+              "score": 0.35721126198768616
+            },
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.2612285017967224
+            }
+          ]
+        },
+        {
+          "id": "q25",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "674eae56bb493ddff5a17a1137a833275bdea45eb01c691be0e6cc5459fbb287",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5978742241859436
+            },
+            {
+              "chunk_id": "198f4e798690a333b099680edc751de56ba829bdd5e760d05c87b97e5e1216a7",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4842348098754883
+            },
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.4743194878101349
+            },
+            {
+              "chunk_id": "7d7bf2e11719d7adda9ffe50cd0986ecbb6a433bd9058c1da73613d4466e67cd",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4720751941204071
+            },
+            {
+              "chunk_id": "e185562a76915893bf6466a90a3322d4e0194daa8aa4b68eea14c6b07fc56d9c",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4259362816810608
+            }
+          ]
+        },
+        {
+          "id": "q26",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "e185562a76915893bf6466a90a3322d4e0194daa8aa4b68eea14c6b07fc56d9c",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.6345153450965881
+            },
+            {
+              "chunk_id": "674eae56bb493ddff5a17a1137a833275bdea45eb01c691be0e6cc5459fbb287",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5600415468215942
+            },
+            {
+              "chunk_id": "cd73d2218913f9c7f028fba91a063e70939ec77686ee378a85736a4d93149467",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.44255438446998596
+            },
+            {
+              "chunk_id": "7d7bf2e11719d7adda9ffe50cd0986ecbb6a433bd9058c1da73613d4466e67cd",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.41688212752342224
+            },
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.40637627243995667
+            }
+          ]
+        },
+        {
+          "id": "q27",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "198f4e798690a333b099680edc751de56ba829bdd5e760d05c87b97e5e1216a7",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.583676815032959
+            },
+            {
+              "chunk_id": "674eae56bb493ddff5a17a1137a833275bdea45eb01c691be0e6cc5459fbb287",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5616812705993652
+            },
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.5211093425750732
+            },
+            {
+              "chunk_id": "7d7bf2e11719d7adda9ffe50cd0986ecbb6a433bd9058c1da73613d4466e67cd",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.4863864779472351
+            },
+            {
+              "chunk_id": "e185562a76915893bf6466a90a3322d4e0194daa8aa4b68eea14c6b07fc56d9c",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.3952254354953766
+            }
+          ]
+        },
+        {
+          "id": "q28",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "7d7bf2e11719d7adda9ffe50cd0986ecbb6a433bd9058c1da73613d4466e67cd",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.6377694606781006
+            },
+            {
+              "chunk_id": "198f4e798690a333b099680edc751de56ba829bdd5e760d05c87b97e5e1216a7",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.5387040972709656
+            },
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.4643109440803528
+            },
+            {
+              "chunk_id": "e185562a76915893bf6466a90a3322d4e0194daa8aa4b68eea14c6b07fc56d9c",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.44691622257232666
+            },
+            {
+              "chunk_id": "674eae56bb493ddff5a17a1137a833275bdea45eb01c691be0e6cc5459fbb287",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.4190148711204529
+            }
+          ]
+        },
+        {
+          "id": "q29",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.590729296207428
+            },
+            {
+              "chunk_id": "7d7bf2e11719d7adda9ffe50cd0986ecbb6a433bd9058c1da73613d4466e67cd",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.5332422256469727
+            },
+            {
+              "chunk_id": "198f4e798690a333b099680edc751de56ba829bdd5e760d05c87b97e5e1216a7",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.48514097929000854
+            },
+            {
+              "chunk_id": "674eae56bb493ddff5a17a1137a833275bdea45eb01c691be0e6cc5459fbb287",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.48265188932418823
+            },
+            {
+              "chunk_id": "e185562a76915893bf6466a90a3322d4e0194daa8aa4b68eea14c6b07fc56d9c",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.46184438467025757
+            }
+          ]
+        },
+        {
+          "id": "q30",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "cd73d2218913f9c7f028fba91a063e70939ec77686ee378a85736a4d93149467",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.6501458883285522
+            },
+            {
+              "chunk_id": "719e8699fad5bd5e66991d4553132e2a63cb8c9e46e75c145a46c45d89c01937",
+              "filename": "delta-coastal.pdf",
+              "page": 3,
+              "score": 0.623633861541748
+            },
+            {
+              "chunk_id": "674eae56bb493ddff5a17a1137a833275bdea45eb01c691be0e6cc5459fbb287",
+              "filename": "delta-coastal.pdf",
+              "page": 1,
+              "score": 0.5534634590148926
+            },
+            {
+              "chunk_id": "7d7bf2e11719d7adda9ffe50cd0986ecbb6a433bd9058c1da73613d4466e67cd",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.51957106590271
+            },
+            {
+              "chunk_id": "198f4e798690a333b099680edc751de56ba829bdd5e760d05c87b97e5e1216a7",
+              "filename": "delta-coastal.pdf",
+              "page": 2,
+              "score": 0.5093361139297485
+            }
+          ]
+        },
+        {
+          "id": "q31",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "27820308671212d29aa7ea6253007c013ffa4357db48d701ee113a9c828aa9e6",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5947149991989136
+            },
+            {
+              "chunk_id": "f49654706704095699b338d4d965b5f7bd1b1f9d3f7baad31c2b0fadb5965679",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5604453682899475
+            },
+            {
+              "chunk_id": "acca749d0b499140fc596af15947d1d53d27e6b583bd297f7c019ad997586f42",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5228033065795898
+            },
+            {
+              "chunk_id": "509dc3619ae6c5b7a4e7dcc5ac34120bfb0d2c34bafe98d400c46ffb6d8ad377",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5034999251365662
+            },
+            {
+              "chunk_id": "54afdf839b7fcbd69730a69aaf0982fa005d072ccfed530b0e9ca00749a1f18a",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.46922820806503296
+            }
+          ]
+        },
+        {
+          "id": "q32",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "509dc3619ae6c5b7a4e7dcc5ac34120bfb0d2c34bafe98d400c46ffb6d8ad377",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.6955908536911011
+            },
+            {
+              "chunk_id": "27820308671212d29aa7ea6253007c013ffa4357db48d701ee113a9c828aa9e6",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.6704328060150146
+            },
+            {
+              "chunk_id": "f49654706704095699b338d4d965b5f7bd1b1f9d3f7baad31c2b0fadb5965679",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5982203483581543
+            },
+            {
+              "chunk_id": "acca749d0b499140fc596af15947d1d53d27e6b583bd297f7c019ad997586f42",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5933167934417725
+            },
+            {
+              "chunk_id": "54afdf839b7fcbd69730a69aaf0982fa005d072ccfed530b0e9ca00749a1f18a",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5716744661331177
+            }
+          ]
+        },
+        {
+          "id": "q33",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "f49654706704095699b338d4d965b5f7bd1b1f9d3f7baad31c2b0fadb5965679",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5637556910514832
+            },
+            {
+              "chunk_id": "27820308671212d29aa7ea6253007c013ffa4357db48d701ee113a9c828aa9e6",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.4667167067527771
+            },
+            {
+              "chunk_id": "acca749d0b499140fc596af15947d1d53d27e6b583bd297f7c019ad997586f42",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.4463065266609192
+            },
+            {
+              "chunk_id": "509dc3619ae6c5b7a4e7dcc5ac34120bfb0d2c34bafe98d400c46ffb6d8ad377",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.37929004430770874
+            },
+            {
+              "chunk_id": "54afdf839b7fcbd69730a69aaf0982fa005d072ccfed530b0e9ca00749a1f18a",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.36349737644195557
+            }
+          ]
+        },
+        {
+          "id": "q34",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "f49654706704095699b338d4d965b5f7bd1b1f9d3f7baad31c2b0fadb5965679",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.7026662826538086
+            },
+            {
+              "chunk_id": "54afdf839b7fcbd69730a69aaf0982fa005d072ccfed530b0e9ca00749a1f18a",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.6457270979881287
+            },
+            {
+              "chunk_id": "acca749d0b499140fc596af15947d1d53d27e6b583bd297f7c019ad997586f42",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.6351618766784668
+            },
+            {
+              "chunk_id": "27820308671212d29aa7ea6253007c013ffa4357db48d701ee113a9c828aa9e6",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5911949276924133
+            },
+            {
+              "chunk_id": "509dc3619ae6c5b7a4e7dcc5ac34120bfb0d2c34bafe98d400c46ffb6d8ad377",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5642033815383911
+            }
+          ]
+        },
+        {
+          "id": "q35",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "acca749d0b499140fc596af15947d1d53d27e6b583bd297f7c019ad997586f42",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.55070960521698
+            },
+            {
+              "chunk_id": "f49654706704095699b338d4d965b5f7bd1b1f9d3f7baad31c2b0fadb5965679",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5433221459388733
+            },
+            {
+              "chunk_id": "27820308671212d29aa7ea6253007c013ffa4357db48d701ee113a9c828aa9e6",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5425426959991455
+            },
+            {
+              "chunk_id": "509dc3619ae6c5b7a4e7dcc5ac34120bfb0d2c34bafe98d400c46ffb6d8ad377",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5079991817474365
+            },
+            {
+              "chunk_id": "54afdf839b7fcbd69730a69aaf0982fa005d072ccfed530b0e9ca00749a1f18a",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.46305572986602783
+            }
+          ]
+        },
+        {
+          "id": "q36",
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "reciprocal_rank": 1.0,
+          "retrieved": [
+            {
+              "chunk_id": "acca749d0b499140fc596af15947d1d53d27e6b583bd297f7c019ad997586f42",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.6237438917160034
+            },
+            {
+              "chunk_id": "f49654706704095699b338d4d965b5f7bd1b1f9d3f7baad31c2b0fadb5965679",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.5609279870986938
+            },
+            {
+              "chunk_id": "6836bb1146fc9322173e235bd47312372bee7348794ad95fee817b02a9f333d3",
+              "filename": "maple-library.pdf",
+              "page": 3,
+              "score": 0.5076181888580322
+            },
+            {
+              "chunk_id": "27820308671212d29aa7ea6253007c013ffa4357db48d701ee113a9c828aa9e6",
+              "filename": "maple-library.pdf",
+              "page": 1,
+              "score": 0.5056888461112976
+            },
+            {
+              "chunk_id": "54afdf839b7fcbd69730a69aaf0982fa005d072ccfed530b0e9ca00749a1f18a",
+              "filename": "maple-library.pdf",
+              "page": 2,
+              "score": 0.4650725722312927
+            }
+          ]
+        }
+      ],
+      "latency_samples_ms": [
+        5.238100000042323,
+        4.074400000263267,
+        4.028899999866553,
+        4.805399999895599,
+        4.295100000035745,
+        4.332400000294001,
+        4.52259999974558,
+        5.732099999931961,
+        4.298000000289903,
+        3.9744999999129504,
+        3.8394999996853585,
+        4.076100000020233,
+        4.920100000163075,
+        4.088099999989936,
+        4.490999999688938,
+        4.49239999989004,
+        4.532100000233186,
+        4.601300000103947,
+        4.0380000000368454,
+        4.352700000254117,
+        4.375500000151078,
+        4.183200000170473,
+        4.398800000217307,
+        4.5525000000452565,
+        4.0793999996822095,
+        4.756499999984953,
+        4.375199999685719,
+        4.50090000003911,
+        4.718000000139,
+        4.121999999824766,
+        4.302299999835668,
+        4.034600000068167,
+        4.180899999937537,
+        4.26740000011705,
+        3.884899999775371,
+        4.428700000062236,
+        4.25519999998869,
+        3.9276999996218365,
+        4.174400000010792,
+        5.025100000239036,
+        4.368599999907019,
+        4.447099999651982,
+        3.970400000071095,
+        4.445500000201719,
+        4.16380000024219,
+        4.080600000179402,
+        4.5601000001624925,
+        4.224600000270584,
+        3.941799999665818,
+        4.564400000163005,
+        4.306799999994837,
+        4.663700000037352,
+        5.087499999717693,
+        4.915500000151951,
+        4.871799999818904,
+        5.458799999814801,
+        4.872999999861349,
+        4.23659999978554,
+        3.958700000112003,
+        3.8664000003336696,
+        5.3792000003340945,
+        4.229799999848183,
+        4.139699999996083,
+        4.613499999777559,
+        4.641800000172225,
+        5.11659999983749,
+        4.211099999793078,
+        4.6066999998402025,
+        4.061400000409776,
+        4.260100000010425,
+        4.819599999791535,
+        5.171300000256451,
+        4.925100000036764,
+        4.386900000099558,
+        4.07069999982923,
+        5.370500000026368,
+        4.928899999868008,
+        4.368700000213721,
+        4.518000000189204,
+        4.390899999634712,
+        5.071599999610044,
+        4.022699999950419,
+        4.160400000273512,
+        4.249799999797688,
+        4.209399999581365,
+        3.8982000000942207,
+        3.7908999997853243,
+        4.488900000069407,
+        4.52739999991536,
+        4.619699999693694,
+        4.029499999887776,
+        4.046999999900436,
+        4.198000000087632,
+        4.5663999999305815,
+        4.506500000388769,
+        4.780700000083016,
+        6.756500000392407,
+        5.189599999994243,
+        4.431500000009692,
+        5.868100000043341,
+        4.890500000328757,
+        4.846100000122533,
+        5.768399999851681,
+        4.505299999891577,
+        4.539599999588972,
+        4.49830000025031,
+        4.547700000330224,
+        5.622799999855488
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+pytest==9.0.3
+pytest-cov==7.1.0
+ruff==0.17.6
+bandit==1.9.4
+pip-audit==2.10.1
+reportlab==4.5.1

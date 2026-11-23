@@ -1,0 +1,59 @@
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 3265.88it/s]
+{"chunking": {"tokens": 128, "overlap": 24}, "metrics": {"recall@1": 0.8888888888888888, "recall@3": 1.0, "recall@5": 1.0, "mrr@5": 0.9398148148148147, "retrieval_p50_ms": 4.718599999932849, "retrieval_p95_ms": 5.611270000304103, "build_ms": 1997.7089999997588}}
+{"chunking": {"tokens": 224, "overlap": 48}, "metrics": {"recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "mrr@5": 1.0, "retrieval_p50_ms": 4.659250000031534, "retrieval_p95_ms": 5.659140000102525, "build_ms": 524.4702999998481}}
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  16%|#5        | 45/290 [00:00<00:00, 444.06it/s]
+Loading weights:  34%|###4      | 100/290 [00:00<00:00, 495.79it/s]
+Loading weights:  52%|#####1    | 150/290 [00:00<00:00, 476.72it/s]
+Loading weights:  68%|######8   | 198/290 [00:00<00:00, 455.29it/s]
+Loading weights:  84%|########4 | 244/290 [00:00<00:00, 441.93it/s]
+Loading weights: 100%|##########| 290/290 [00:00<00:00, 467.53it/s]
+q01: insufficient; expected fact=False; generation=8516.6 ms
+q02: insufficient; expected fact=False; generation=2542.6 ms
+q03: insufficient; expected fact=False; generation=2181.9 ms
+q04: insufficient; expected fact=False; generation=2626.1 ms
+q05: insufficient; expected fact=False; generation=7195.4 ms
+q06: insufficient; expected fact=False; generation=743.6 ms
+q07: insufficient; expected fact=False; generation=2399.3 ms
+q08: insufficient; expected fact=False; generation=2951.3 ms
+q09: insufficient; expected fact=False; generation=2052.9 ms
+q10: insufficient; expected fact=False; generation=2845.7 ms
+q11: local-evidence; expected fact=False; generation=2808.7 ms
+q12: local-evidence; expected fact=True; generation=1155.6 ms
+q13: insufficient; expected fact=False; generation=1872.5 ms
+q14: insufficient; expected fact=False; generation=2385.4 ms
+q15: insufficient; expected fact=False; generation=2779.3 ms
+q16: insufficient; expected fact=False; generation=2145.1 ms
+q17: insufficient; expected fact=False; generation=8320.7 ms
+q18: insufficient; expected fact=False; generation=2221.9 ms
+q19: insufficient; expected fact=False; generation=2536.0 ms
+q20: insufficient; expected fact=False; generation=2096.7 ms
+q21: local-evidence; expected fact=True; generation=2831.3 ms
+q22: insufficient; expected fact=False; generation=1047.3 ms
+q23: insufficient; expected fact=False; generation=6344.0 ms
+q24: insufficient; expected fact=False; generation=2244.3 ms
+q25: insufficient; expected fact=False; generation=2107.6 ms
+q26: insufficient; expected fact=False; generation=2628.7 ms
+q27: insufficient; expected fact=False; generation=2767.2 ms
+q28: insufficient; expected fact=False; generation=2264.6 ms
+q29: insufficient; expected fact=False; generation=2003.1 ms
+q30: insufficient; expected fact=False; generation=2356.2 ms
+q31: insufficient; expected fact=False; generation=3290.4 ms
+q32: insufficient; expected fact=False; generation=2435.0 ms
+q33: insufficient; expected fact=False; generation=2869.8 ms
+q34: insufficient; expected fact=False; generation=2523.2 ms
+q35: local-evidence; expected fact=True; generation=3228.2 ms
+q36: insufficient; expected fact=False; generation=2652.4 ms
+n01: insufficient; expected fact=False; generation=0.0 ms
+n02: insufficient; expected fact=False; generation=2889.9 ms
+n03: insufficient; expected fact=False; generation=3119.1 ms
+n04: insufficient; expected fact=False; generation=3209.5 ms
+n05: insufficient; expected fact=False; generation=2940.7 ms
+n06: insufficient; expected fact=False; generation=2667.0 ms
+n07: insufficient; expected fact=False; generation=2706.7 ms
+n08: insufficient; expected fact=False; generation=0.0 ms
+Saved measured report: C:\Users\ADMIN\Documents\ChatGPT\project CV\evaluation\results\full.json

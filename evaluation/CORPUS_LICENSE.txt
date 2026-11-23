@@ -1,0 +1,11 @@
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the authors have waived all copyright and related or
+neighboring rights to the original fictional evaluation corpus and its question/evidence
+annotations. This applies to the PDFs in corpus/, questions.json, corpus_manifest.json,
+and adversarial_cases.json.
+
+CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+All institutions, policies, amounts, and procedures are invented for software evaluation.
+No statement in this corpus is advice or a policy of a real institution.

@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "cedar-research.pdf",
+    "sha256": "cedf235f3362c126528c88808f706eebdf1e3d4ad0ceaecf4985c06861c6b19d",
+    "pages": 3
+  },
+  {
+    "filename": "harbor-observatory.pdf",
+    "sha256": "03d92d12f2cd34685632b3806ccf7368bf4c59bdd2b88961a0178bfdc828eb96",
+    "pages": 3
+  },
+  {
+    "filename": "willow-garden.pdf",
+    "sha256": "465417fdc946414f190eeb3251ead26c93c9f2f24a222a8a433e87f40c2a4273",
+    "pages": 3
+  },
+  {
+    "filename": "atlas-robotics.pdf",
+    "sha256": "40d3baee6729d1729cd7c0ac96e95bd6da54992edc5bbf5d0af7f8b0d680be5c",
+    "pages": 3
+  },
+  {
+    "filename": "delta-coastal.pdf",
+    "sha256": "6788f0e0f228e7ce17c4199524d3fa06d187983bc4a8344942de7f58129cbf9e",
+    "pages": 3
+  },
+  {
+    "filename": "maple-library.pdf",
+    "sha256": "b03c1e6bd4bcc495b0e07ac96c3406f7f8dab3e8917728ab0f8e7d5fa1c66998",
+    "pages": 3
+  }
+]

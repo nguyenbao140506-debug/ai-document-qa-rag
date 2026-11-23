@@ -1,0 +1,9 @@
+# Offline tests and static checks; no embedding/LLM downloads or PyTorch installation.
+numpy==2.4.6
+PyMuPDF==1.28.2
+faiss-cpu==1.16.0
+streamlit==1.67.0
+pytest==9.0.3
+pytest-cov==7.1.0
+ruff==0.17.6
+bandit==1.9.4

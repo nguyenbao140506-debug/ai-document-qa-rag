@@ -1,0 +1,28 @@
+2026-11-24 00:22:13.484 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 4167.20it/s]
+2026-11-24 00:22:21.322 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 2971.49it/s]
+.................................................................................
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.13.12-final-0 _______________
+
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+src\ragqa\__init__.py           0      0   100%
+src\ragqa\chunking.py          16      0   100%
+src\ragqa\config.py            21      0   100%
+src\ragqa\embeddings.py        25      1    96%   44
+src\ragqa\evaluation.py         8      0   100%
+src\ragqa\generator.py         72     22    69%   37, 64-92, 111, 133-146
+src\ragqa\models.py            44      0   100%
+src\ragqa\pdf_loader.py        52      0   100%
+src\ragqa\rag_pipeline.py      66      3    95%   47, 59, 61
+src\ragqa\vector_store.py     139     13    91%   37, 40, 49, 61, 64, 90, 108, 128, 141, 143, 152, 154, 174
+---------------------------------------------------------
+TOTAL                         443     39    91%
+Coverage JSON written to file evaluation/results/coverage.json
+81 passed in 9.87s
